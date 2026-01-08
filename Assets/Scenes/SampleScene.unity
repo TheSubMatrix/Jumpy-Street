@@ -892,7 +892,7 @@ MonoBehaviour:
   m_characterController:
     rid: 3198014416879353921
   m_moveTime: 0.4
-  m_moveDistance: 1
+  m_moveDistance: 2
   m_jumpHeight: 0.5
   references:
     version: 2
