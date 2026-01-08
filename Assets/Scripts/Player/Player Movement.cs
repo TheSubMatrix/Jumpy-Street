@@ -25,13 +25,10 @@ public class PlayerMovement : MonoBehaviour, ICharacterMovement
         endPosition.x += movementVector.normalized.x * m_moveDistance;
         endPosition.z += movementVector.normalized.y * m_moveDistance;
         Vector3 updatedPosition = startPosition;
-        Debug.Log(startPosition);
-        Debug.Log(endPosition);
         while(elapsedTime < m_moveTime)
         {
 
             float additionalHeight = Mathf.Sin((elapsedTime / m_moveTime).Remap(0, 1, 0, Mathf.PI)) * m_jumpHeight;
-            Debug.Log(additionalHeight);
             updatedPosition = Vector3.Lerp(startPosition, endPosition, elapsedTime / m_moveTime);
             updatedPosition.y += additionalHeight;
             transform.position = updatedPosition;
