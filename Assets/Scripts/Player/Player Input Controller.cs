@@ -13,12 +13,10 @@ public class PlayerInputController : ICharacterController
     {
         m_moveAction.action.Enable();
         m_moveAction.action.started += OnMoveAction;
-        m_moveAction.action.canceled += OnMoveAction;
     }
     public void DeInitialize()
     {
         m_moveAction.action.started -= OnMoveAction;
-        m_moveAction.action.canceled -= OnMoveAction;
         m_moveAction.action.Disable();
     }
     void OnMoveAction(InputAction.CallbackContext context)

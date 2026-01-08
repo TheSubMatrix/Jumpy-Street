@@ -633,6 +633,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e1972ec8aa813940881cd9691bb7648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: JumpyStreet.Player::PlayerMovement
+  m_moveTime: 1
+  m_moveDistance: 1
+  m_jumpHeight: 0.5
 --- !u!136 &1108339630
 CapsuleCollider:
   m_ObjectHideFlags: 0
