@@ -1,16 +1,30 @@
+using System;
 using MatrixUtils.Attributes;
 using MatrixUtils.Extensions;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour, ICharacterMovement
+public class CharacterMovement : MonoBehaviour
 {
+    [SerializeReference, ClassSelector] ICharacterController m_characterController;
     [SerializeField] float m_moveTime;
     [SerializeField] float m_moveDistance;
     [SerializeField] float m_jumpHeight;
 
     Coroutine m_currentMoveRoutine;
+
+    void Awake()
+    {
+        m_characterController.Initialize();
+        m_characterController.RequestMovement += OnMoveRequested;
+    }
+
+    void OnDestroy()
+    {
+        m_characterController.RequestMovement -= OnMoveRequested;
+        m_characterController.DeInitialize();
+    }
+
     public void OnMoveRequested(Vector2 movementVector)
     {
         if (m_currentMoveRoutine is not null) return;
@@ -24,18 +38,16 @@ public class PlayerMovement : MonoBehaviour, ICharacterMovement
         Vector3 endPosition = startPosition;
         endPosition.x += movementVector.normalized.x * m_moveDistance;
         endPosition.z += movementVector.normalized.y * m_moveDistance;
-        Vector3 updatedPosition = startPosition;
         while(elapsedTime < m_moveTime)
         {
 
             float additionalHeight = Mathf.Sin((elapsedTime / m_moveTime).Remap(0, 1, 0, Mathf.PI)) * m_jumpHeight;
-            updatedPosition = Vector3.Lerp(startPosition, endPosition, elapsedTime / m_moveTime);
+            Vector3 updatedPosition = Vector3.Lerp(startPosition, endPosition, elapsedTime / m_moveTime);
             updatedPosition.y += additionalHeight;
             transform.position = updatedPosition;
             elapsedTime += Time.deltaTime;
             yield return null;
         }
         m_currentMoveRoutine = null;
-       
     }
 }

@@ -19,6 +19,7 @@ namespace MatrixUtils.PropertyDrawers.Helpers
         public HashSet<Type> ExcludeDrawerTypes { get; set; }
         public HashSet<string> ExcludeFields { get; set; }
         public bool ShowDefaultFields { get; set; } = true;
+        public bool ExcludeAttributeDrawers { get; set; } = false;
     }
 
     /// <summary>

@@ -50,14 +50,15 @@ namespace MatrixUtils.PropertyDrawers.Helpers
         public static PropertyDrawer CreateDrawerForProperty(
             SerializedProperty property, 
             Type excludeDrawerType = null,
-            HashSet<Type> excludeDrawerTypes = null)
+            HashSet<Type> excludeDrawerTypes = null,
+            bool excludeAttributeDrawers = false)
         {
             if (property == null) return null;
 
             FieldInfo fieldInfo = property.GetFieldInfoAndStaticType(out _);
             if (fieldInfo == null) return null;
 
-            Type drawerType = PropertyDrawerRegistry.GetDrawerTypeForField(fieldInfo, excludeDrawerType, excludeDrawerTypes);
+            Type drawerType = PropertyDrawerRegistry.GetDrawerTypeForField(fieldInfo, excludeDrawerType, excludeDrawerTypes, excludeAttributeDrawers);
             if (drawerType == null) return null;
 
             // Get the matching attribute if it's an attribute-based drawer

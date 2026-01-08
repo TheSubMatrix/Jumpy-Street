@@ -1,6 +1,7 @@
 using System;
 using System.Reflection;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 #if UNITY_EDITOR
@@ -16,8 +17,8 @@ namespace MatrixUtils.Extensions
     {
         #if UNITY_EDITOR
         // Delegate for the private static method 'GetFieldInfoAndStaticTypeFromProperty' in 'ScriptAttributeUtility'.
-        private delegate FieldInfo GetFieldInfoAndStaticTypeFromProperty(SerializedProperty aProperty, out Type aType);
-        private static GetFieldInfoAndStaticTypeFromProperty getFieldInfoAndStaticTypeFromProperty;
+        delegate FieldInfo GetFieldInfoAndStaticTypeFromProperty(SerializedProperty aProperty, out Type aType);
+        static GetFieldInfoAndStaticTypeFromProperty s_getFieldInfoAndStaticTypeFromProperty;
 
         /// <summary>
         /// Uses reflection to get the <see cref="FieldInfo"/> and static <see cref="Type"/> of the field that the <see cref="SerializedProperty"/> represents.
@@ -29,29 +30,26 @@ namespace MatrixUtils.Extensions
         public static FieldInfo GetFieldInfoAndStaticType(this SerializedProperty prop, out Type type)
         {
             // Lazy initialization of the delegate to the internal Unity method.
-            if (getFieldInfoAndStaticTypeFromProperty != null)
-                return getFieldInfoAndStaticTypeFromProperty(prop, out type);
+            if (s_getFieldInfoAndStaticTypeFromProperty != null)
+                return s_getFieldInfoAndStaticTypeFromProperty(prop, out type);
             // Iterate through all loaded assemblies.
             foreach (Assembly assembly in AppDomain.CurrentDomain.GetAssemblies())
             {
                 // Iterate through all types in the current assembly.
-                foreach (Type t in assembly.GetTypes())
+                foreach (MethodInfo mi in from t in assembly.GetTypes() where t.Name == "ScriptAttributeUtility" select t.GetMethod("GetFieldInfoAndStaticTypeFromProperty", BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic))
                 {
-                    // Look for the internal Unity class 'ScriptAttributeUtility'.
-                    if (t.Name != "ScriptAttributeUtility") continue;
-                    // Get the non-public static method 'GetFieldInfoAndStaticTypeFromProperty'.
-                    MethodInfo mi = t.GetMethod("GetFieldInfoAndStaticTypeFromProperty", BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic);
                     // Create a delegate to this method.
-                    getFieldInfoAndStaticTypeFromProperty = (GetFieldInfoAndStaticTypeFromProperty)Delegate.CreateDelegate(typeof(GetFieldInfoAndStaticTypeFromProperty), mi);
+                    s_getFieldInfoAndStaticTypeFromProperty = (GetFieldInfoAndStaticTypeFromProperty)Delegate.CreateDelegate(typeof(GetFieldInfoAndStaticTypeFromProperty), mi);
                     break; // Found the method, exit the inner loop.
                 }
-                if (getFieldInfoAndStaticTypeFromProperty != null) break; // Found the method, exit the outer loop.
+
+                if (s_getFieldInfoAndStaticTypeFromProperty != null) break; // Found the method, exit the outer loop.
             }
 
             // If the reflection failed to find the method.
-            if (getFieldInfoAndStaticTypeFromProperty != null)
-                return getFieldInfoAndStaticTypeFromProperty(prop, out type);
-            UnityEngine.Debug.LogError("GetFieldInfoAndStaticType::Reflection failed!");
+            if (s_getFieldInfoAndStaticTypeFromProperty != null)
+                return s_getFieldInfoAndStaticTypeFromProperty(prop, out type);
+            Debug.LogError("GetFieldInfoAndStaticType::Reflection failed!");
             type = null;
             return null;
             // Invoke the delegate to get the FieldInfo and Type.
@@ -119,11 +117,8 @@ namespace MatrixUtils.Extensions
             string[] elements = path.Split('.');
             
             FieldInfo fieldInfo = null;
-            foreach (string element in elements)
+            foreach (string element in elements.Where(element => targetType != null))
             {
-                if (targetType == null)
-                    continue;
-                
                 if (element.Contains("["))
                 {
                     string elementName = element[..element.IndexOf("[", StringComparison.Ordinal)];

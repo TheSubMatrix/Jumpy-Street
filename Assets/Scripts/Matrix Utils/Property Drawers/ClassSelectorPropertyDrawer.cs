@@ -301,31 +301,32 @@ namespace MatrixUtils.PropertyDrawers
 
         static void DrawManagedReferenceFields(SerializedProperty property, VisualElement container)
         {
-	        SerializedProperty iterator = property.Copy();
-	        SerializedProperty endProperty = property.GetEndProperty();
+            SerializedProperty iterator = property.Copy();
+            SerializedProperty endProperty = property.GetEndProperty();
 
-	        if (!iterator.NextVisible(true)) return;
-	        do
-	        {
-		        if (SerializedProperty.EqualContents(iterator, endProperty))
-			        break;
+            if (!iterator.NextVisible(true)) return;
+            do
+            {
+                if (SerializedProperty.EqualContents(iterator, endProperty))
+                    break;
 
-		        SerializedProperty childProperty = iterator.Copy();
-		        PropertyDrawer childDrawer = PropertyDrawerFactory.CreateDrawerForProperty(
-			        childProperty,
-			        excludeDrawerType: typeof(RequiredFieldDrawer)
-		        );
+                SerializedProperty childProperty = iterator.Copy();
+                PropertyDrawer childDrawer = PropertyDrawerFactory.CreateDrawerForProperty(
+                    childProperty,
+                    excludeDrawerType: typeof(ClassSelectorPropertyDrawer),
+                    excludeAttributeDrawers: true
+                );
 
-		        VisualElement customElement = childDrawer?.CreatePropertyGUI(childProperty);
-		        if (customElement != null)
-		        {
-			        container.Add(customElement);
-			        continue;
-		        }
+                VisualElement customElement = childDrawer?.CreatePropertyGUI(childProperty);
+                if (customElement != null)
+                {
+                    container.Add(customElement);
+                    continue;
+                }
 
-		        container.Add(new PropertyField(childProperty));
+                container.Add(new PropertyField(childProperty));
 
-	        } while (iterator.NextVisible(false));
+            } while (iterator.NextVisible(false));
         }
 
         static object GetCurrentManagedReferenceValue(SerializedProperty property)

@@ -139,12 +139,12 @@ namespace MatrixUtils.PropertyDrawers.Helpers
             return null;
         }
 
-        public static Type GetDrawerTypeForField(FieldInfo fieldInfo, Type excludeDrawerType = null, HashSet<Type> excludeDrawerTypes = null)
+        public static Type GetDrawerTypeForField(FieldInfo fieldInfo, Type excludeDrawerType = null, HashSet<Type> excludeDrawerTypes = null, bool excludeAttributeDrawers = false)
         {
             if (fieldInfo == null) return null;
 
             string cacheKey = $"{fieldInfo.DeclaringType?.FullName}.{fieldInfo.Name}";
-            bool hasExclusions = excludeDrawerType != null || excludeDrawerTypes != null;
+            bool hasExclusions = excludeDrawerType != null || excludeDrawerTypes != null || excludeAttributeDrawers;
 
             if (!hasExclusions && s_fieldDrawerCache.TryGetValue(cacheKey, out Type cachedDrawerType))
                 return cachedDrawerType;
@@ -153,7 +153,14 @@ namespace MatrixUtils.PropertyDrawers.Helpers
             PropertyAttribute[] attributes = fieldInfo.GetCustomAttributes<PropertyAttribute>(true)
                 .Reverse().ToArray();
 
-            Type selectedDrawerType = attributes.Select(attr => GetDrawerTypeForType(attr.GetType())).FirstOrDefault(drawerType => drawerType != null && !IsDrawerExcluded(drawerType, excludeDrawerType, excludeDrawerTypes));
+            Type selectedDrawerType = null;
+    
+            if (!excludeAttributeDrawers)
+            {
+                selectedDrawerType = attributes.Select(attr => GetDrawerTypeForType(attr.GetType()))
+                    .FirstOrDefault(drawerType => drawerType != null && !IsDrawerExcluded(drawerType, excludeDrawerType, excludeDrawerTypes));
+            }
+    
             if (selectedDrawerType == null)
             {
                 Type typeDrawer = GetDrawerTypeForType(fieldInfo.FieldType);

@@ -496,62 +496,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!1 &416979016
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 416979018}
-  - component: {fileID: 416979017}
-  m_Layer: 0
-  m_Name: Character Coordinator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &416979017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 416979016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e76d56690e4733c46b06f6be589fd6c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: JumpyStreet.Player::CharacterCoordinator
-  m_characters:
-  - controller:
-      rid: 7036422697979740244
-    m_characterMovement:
-      m_underlyingValue: {fileID: 1108339629}
-  references:
-    version: 2
-    RefIds:
-    - rid: 7036422697979740244
-      type: {class: PlayerInputController, ns: , asm: JumpyStreet.Player}
-      data:
-        m_moveAction: {fileID: 1259995152}
---- !u!4 &416979018
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 416979016}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,9 +577,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e1972ec8aa813940881cd9691bb7648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: JumpyStreet.Player::PlayerMovement
+  m_characterController:
+    rid: 3198014416879353918
   m_moveTime: 0.4
   m_moveDistance: 1
   m_jumpHeight: 0.5
+  references:
+    version: 2
+    RefIds:
+    - rid: 3198014416879353918
+      type: {class: PlayerInputController, ns: , asm: JumpyStreet.Player}
+      data:
+        m_moveAction: {fileID: 0}
 --- !u!136 &1108339630
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -731,20 +684,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1259995152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
-  m_Name: Player/Move
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
-  m_Asset: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  m_ActionId: 351f2ccd-1f9f-44bf-9bec-d62ac5c5f408
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -754,4 +693,3 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 156902486}
   - {fileID: 1108339633}
-  - {fileID: 416979018}
