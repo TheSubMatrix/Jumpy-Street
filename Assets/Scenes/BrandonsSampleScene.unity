@@ -446,25 +446,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
   m_Asset: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_ActionId: 351f2ccd-1f9f-44bf-9bec-d62ac5c5f408
---- !u!1 &998671908 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7756295122576005347, guid: ac69642b46507964d9340a0ccbca7920, type: 3}
-  m_PrefabInstance: {fileID: 3484049727389281542}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &998671911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998671908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02a04e92cc5ff014099ca5a766612663, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LoadNextCollider
-  exitTrigger: {fileID: 0}
-  tileTrigger: {fileID: 0}
 --- !u!1 &1006821676 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8364583904663194759, guid: ac69642b46507964d9340a0ccbca7920, type: 3}
@@ -486,7 +467,6 @@ GameObject:
   - component: {fileID: 1427026621}
   - component: {fileID: 1427026620}
   - component: {fileID: 1427026627}
-  - component: {fileID: 1427026628}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Player
@@ -686,27 +666,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelIteration
   baseTile: {fileID: 1006821676}
-  tileTrigger: {fileID: 1890702816}
-  targetTrigger: {fileID: 0}
---- !u!114 &1427026628
-MonoBehaviour:
+  tileTrigger: {fileID: 1842315254}
+--- !u!1 &1842315254
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427026619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02a04e92cc5ff014099ca5a766612663, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LoadNextCollider
-  exitTrigger: {fileID: 0}
-  tileTrigger: {fileID: 0}
---- !u!1 &1890702816 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3362072217220394744, guid: ac69642b46507964d9340a0ccbca7920, type: 3}
-  m_PrefabInstance: {fileID: 3484049727389281542}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1842315256}
+  - component: {fileID: 1842315255}
+  m_Layer: 0
+  m_Name: TileTrigger
+  m_TagString: TileTrig
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1842315255
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842315254}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 59.81273, y: 8.901529, z: 1}
+  m_Center: {x: 0.4504547, y: 0.47402358, z: 0}
+--- !u!4 &1842315256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842315254}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3484049727389281542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -766,10 +779,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7756295122576005347, guid: ac69642b46507964d9340a0ccbca7920, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 998671911}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac69642b46507964d9340a0ccbca7920, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -779,3 +789,4 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 3484049727389281542}
   - {fileID: 1427026626}
+  - {fileID: 1842315256}
