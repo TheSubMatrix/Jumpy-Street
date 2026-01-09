@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8364583904663194759}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -207,13 +207,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6110585714355967821}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
 --- !u!4 &15008339065998920 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
   m_PrefabInstance: {fileID: 15008339066126170}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &15008339066191972 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 15008339066126170}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6110585714355967821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15008339066191972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &459836361875534647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1137,13 +1158,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1982164123960244686}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
 --- !u!4 &1281449160718429447 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
   m_PrefabInstance: {fileID: 1281449160718867477}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1281449160718885675 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 1281449160718867477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1982164123960244686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281449160718885675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &1294019770167277666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1385,13 +1427,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2537612778851379834}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
 --- !u!4 &1472132641151025573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
   m_PrefabInstance: {fileID: 1472132641151414455}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1472132641151487881 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 1472132641151414455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2537612778851379834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472132641151487881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &1493606650855580514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1633,8 +1696,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2074123226401385190}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+--- !u!1 &1545914040770597822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 1545914040770522240}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2074123226401385190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545914040770597822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &1545914040770665874 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
@@ -1757,8 +1841,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2571421756708163078}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+--- !u!1 &1680580717403360965 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 1680580717403386363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2571421756708163078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680580717403360965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &1680580717403554025 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
@@ -1819,8 +1924,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7231060894963589673}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+--- !u!1 &1782008296306782836 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 1782008296306888010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7231060894963589673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782008296306782836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &1782008296306981976 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
@@ -2253,8 +2379,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2881330581802849461}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+--- !u!1 &2223280981498445960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 2223280981498478518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2881330581802849461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2223280981498445960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &2223280981498908324 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
@@ -2315,8 +2462,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3719134611359814390}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+--- !u!1 &2303534370317258436 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 2303534370317152762}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3719134611359814390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2303534370317258436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &2303534370317582568 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
@@ -2873,8 +3041,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 162496816235917207}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+--- !u!1 &2910683296707384817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 2910683296707504847}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &162496816235917207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2910683296707384817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &2910683296707845085 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
@@ -3121,13 +3310,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1117886695514154869}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
 --- !u!4 &3304333468533678518 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
   m_PrefabInstance: {fileID: 3304333468533821604}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3304333468533878682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 3304333468533821604}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1117886695514154869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3304333468533878682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &3313132156897919023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3307,13 +3517,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7867790899057523776}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
 --- !u!4 &3538492934193877352 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
   m_PrefabInstance: {fileID: 3538492934194061434}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3538492934193946436 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 3538492934194061434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7867790899057523776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3538492934193946436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &3638451133280862896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3555,8 +3786,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 786181812221195722}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+--- !u!1 &3893025998341597867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 3893025998341608853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &786181812221195722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3893025998341597867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &3893025998341792903 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
@@ -3679,8 +3931,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4730373164160410976}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+--- !u!1 &4028701584038522882 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 4028701584038465340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4730373164160410976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4028701584038522882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &4028701584038592046 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
@@ -4113,8 +4386,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2239746982465911916}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+--- !u!1 &5133921356473849705 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 5133921356473935959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2239746982465911916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5133921356473849705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &5133921356474046789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
@@ -4175,8 +4469,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4604336878140012811}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+--- !u!1 &5167576215932401601 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 5167576215932471551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4604336878140012811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5167576215932401601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &5167576215932860909 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
@@ -4299,13 +4614,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3346857295646273930}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
 --- !u!4 &5397530468222616921 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
   m_PrefabInstance: {fileID: 5397530468222973003}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5397530468222946165 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 5397530468222973003}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3346857295646273930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5397530468222946165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &5452905704610237578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4361,13 +4697,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4966099520347553733}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
 --- !u!4 &5452905704609840536 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
   m_PrefabInstance: {fileID: 5452905704610237578}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5452905704610296756 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 5452905704610237578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4966099520347553733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5452905704610296756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &5494657961979697129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4857,13 +5214,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3115210404025722152}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
 --- !u!4 &6029484304639403387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
   m_PrefabInstance: {fileID: 6029484304639579241}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6029484304639470423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 6029484304639579241}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3115210404025722152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6029484304639470423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &6030679717686847304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5105,8 +5483,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8662578952082763805}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+--- !u!1 &6264907642320418907 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 6264907642320357221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8662578952082763805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6264907642320418907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &6264907642320483959 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
@@ -5973,13 +6372,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 59787190972947562}
   m_SourcePrefab: {fileID: 100100000, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
 --- !u!4 &7261923030787634009 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 454930, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
   m_PrefabInstance: {fileID: 7261923030787801675}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7261923030787702133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 130878, guid: 196b993d2b0354842bd6fa90eb970550, type: 3}
+  m_PrefabInstance: {fileID: 7261923030787801675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &59787190972947562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7261923030787702133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &7320153085025850657
 PrefabInstance:
   m_ObjectHideFlags: 0

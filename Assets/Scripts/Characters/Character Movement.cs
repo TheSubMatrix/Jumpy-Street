@@ -3,6 +3,7 @@ using MatrixUtils.Extensions;
 using System.Collections;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(Rigidbody))]
 public class CharacterMovement : MonoBehaviour
@@ -11,6 +12,9 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] float m_moveTime;
     [SerializeField] float m_moveDistance;
     [SerializeField] float m_jumpHeight;
+    
+    [Header("Events")]
+    [SerializeField] UnityEvent<Vector3, float> m_onJump;
     
     Rigidbody m_rigidbody;
     Rigidbody m_connectedMovingGround;
@@ -62,11 +66,17 @@ public class CharacterMovement : MonoBehaviour
     IEnumerator MoveCharacter(Vector2 movementVector)
     {
         m_isGrounded = false;
+        
+        Vector3 movementOffset = new(movementVector.normalized.x * m_moveDistance, 0, movementVector.normalized.y * m_moveDistance);
+        
+        // Invoke event - listeners handle their own concerns
+        m_onJump?.Invoke(movementOffset, m_moveTime);
+        
         float elapsedTime = 0;
         Vector3 startPosition = m_rigidbody.position;
-        Vector3 movementOffset = new(movementVector.normalized.x * m_moveDistance, 0, movementVector.normalized.y * m_moveDistance);
         Rigidbody movingGround = m_connectedMovingGround;
         Vector3 platformStartPos = movingGround ? movingGround.position : Vector3.zero;
+        
         while(elapsedTime <= m_moveTime)
         {
             float t = elapsedTime / m_moveTime;
