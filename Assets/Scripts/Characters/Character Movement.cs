@@ -14,7 +14,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] float m_jumpHeight;
     
     [Header("Events")]
-    [SerializeField] UnityEvent<Vector3, float> m_onJump;
+    [SerializeField] UnityEvent<Vector2, float> m_onJump;
     
     Rigidbody m_rigidbody;
     Rigidbody m_connectedMovingGround;
@@ -66,24 +66,30 @@ public class CharacterMovement : MonoBehaviour
     IEnumerator MoveCharacter(Vector2 movementVector)
     {
         m_isGrounded = false;
-        
-        Vector3 movementOffset = new(movementVector.normalized.x * m_moveDistance, 0, movementVector.normalized.y * m_moveDistance);
-        
-        // Invoke event - listeners handle their own concerns
-        m_onJump?.Invoke(movementOffset, m_moveTime);
-        
+    
+        Vector2 normalizedMovement = movementVector.normalized;
+        Vector3 movementOffset = new(normalizedMovement.x * m_moveDistance, 0, normalizedMovement.y * m_moveDistance);
+        if (movementOffset.sqrMagnitude > 0.01f)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(movementOffset);
+            transform.rotation = targetRotation;
+            m_rigidbody.rotation = targetRotation;
+        }
+    
+        m_onJump?.Invoke(normalizedMovement, m_moveTime);
+    
         float elapsedTime = 0;
         Vector3 startPosition = m_rigidbody.position;
         Rigidbody movingGround = m_connectedMovingGround;
         Vector3 platformStartPos = movingGround ? movingGround.position : Vector3.zero;
-        
+    
         while(elapsedTime <= m_moveTime)
         {
             float t = elapsedTime / m_moveTime;
             Vector3 movingGroundDelta = movingGround ? movingGround.position - platformStartPos : Vector3.zero;
             Vector3 targetPosition = startPosition + movementOffset * t + movingGroundDelta;
             targetPosition.y += Mathf.Sin(t.Remap(0, 1, 0, Mathf.PI)) * m_jumpHeight;
-    
+
             m_rigidbody.MovePosition(targetPosition);
             elapsedTime += Time.fixedDeltaTime;
             yield return new WaitForFixedUpdate();

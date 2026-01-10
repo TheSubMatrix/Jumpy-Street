@@ -16,37 +16,43 @@ public class CharacterAnimationController : MonoBehaviour
         m_animator = GetComponent<Animator>();    
     }
     
-    public void PlayJumpAnimation(Vector3 jumpDirection, float jumpTime)
+    public void PlayJumpAnimation(Vector2 jumpDirection, float jumpTime)
     {
         if (m_currentAnimationRoutine != null)
         {
             StopCoroutine(m_currentAnimationRoutine);
         }
-        
-        m_currentAnimationRoutine = StartCoroutine(PlayJumpAnimationRoutine(jumpDirection, jumpTime));
+
+        m_currentAnimationRoutine = StartCoroutine(PlayJumpAnimationRoutine(jumpTime));
     }
     
-    IEnumerator PlayJumpAnimationRoutine(Vector3 jumpDirection, float jumpTime)
+    IEnumerator PlayJumpAnimationRoutine(float jumpTime)
     {
-        float originalSpeed = m_animator.speed;
+        m_animator.speed = 1f;
+
+        m_animator.ResetTrigger(m_jumpTrigger);
         m_animator.SetTrigger(m_jumpTrigger);
+        
+        float startTime = Time.time;
+        float endTime = startTime + jumpTime;
         yield return null;
-        AnimatorStateInfo nextState = m_animator.GetNextAnimatorStateInfo(m_animationLayer);
-        if (!nextState.IsName(m_jumpStateName))
+        AnimatorStateInfo stateInfo = m_animator.GetNextAnimatorStateInfo(m_animationLayer);
+        
+        if (!stateInfo.IsName(m_jumpStateName))
         {
-            m_currentAnimationRoutine = null;
-            yield break;
+            stateInfo = m_animator.GetCurrentAnimatorStateInfo(m_animationLayer);
         }
-        while (m_animator.IsInTransition(m_animationLayer))
+        if (stateInfo.IsName(m_jumpStateName))
+        {
+            float requiredSpeed = stateInfo.length / jumpTime;
+            m_animator.speed = requiredSpeed;
+        }
+
+        while (Time.time < endTime)
         {
             yield return null;
         }
-        AnimatorStateInfo stateInfo = m_animator.GetCurrentAnimatorStateInfo(m_animationLayer);
-        float requiredSpeed = stateInfo.length / jumpTime;
-        m_animator.speed = requiredSpeed;
-        yield return new WaitForSeconds(jumpTime);
-        m_animator.speed = originalSpeed;
-        
+        m_animator.speed = 1f;
         m_currentAnimationRoutine = null;
     }
 }

@@ -1,24 +1,39 @@
 using MatrixUtils.Attributes;
 using System;
+using MatrixUtils;
+using MatrixUtils.GenericDatatypes;
 using UnityEngine;
 using UnityEngine.InputSystem;
+
 [Serializable]
 public class PlayerInputController : ICharacterController
 {
-    [SerializeField, RequiredField] InputActionReference m_moveAction;
+    [SerializeReference, RequiredField] SerializableAssetReference<InputActionReference> m_moveAction = new();
 
     public event Action<Vector2> RequestMovement;
 
     public void Initialize()
     {
-        m_moveAction.action.Enable();
-        m_moveAction.action.started += OnMoveAction;
+        InputAction action = m_moveAction.Asset.action;
+        if (action == null)
+        {
+            Debug.LogError("Move action not configured!");
+            return;
+        }
+        
+        action.Enable();
+        action.started += OnMoveAction;
     }
+    
     public void DeInitialize()
     {
-        m_moveAction.action.started -= OnMoveAction;
-        m_moveAction.action.Disable();
+        InputAction action = m_moveAction.Asset.action;
+        if (action == null) return;
+        
+        action.started -= OnMoveAction;
+        action.Disable();
     }
+    
     void OnMoveAction(InputAction.CallbackContext context)
     {
         RequestMovement?.Invoke(context.ReadValue<Vector2>());
