@@ -18,15 +18,11 @@ public abstract class PersistentService<TInterface> : MonoBehaviour, IDependency
     public TInterface ProvideService()
     {
         TInterface thisAsInterface = this as TInterface;
-        
-        // If there's already an instance, and it's not this one, destroy this duplicate
         if (s_instance != null && s_instance != thisAsInterface)
         {
             Destroy(gameObject);
-            return null;
+            return s_instance;
         }
-
-        // First time or re-registering the same instance
         if (s_instance != null) return s_instance;
         s_instance = thisAsInterface;
         DontDestroyOnLoad(gameObject);

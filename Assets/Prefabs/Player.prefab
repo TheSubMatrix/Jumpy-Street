@@ -826,9 +826,11 @@ GameObject:
   - component: {fileID: 418938035568651254}
   - component: {fileID: 8919328118377115791}
   - component: {fileID: 4917203184778432212}
+  - component: {fileID: 7153332151154958815}
   - component: {fileID: 4083791086919947465}
   - component: {fileID: 9189287679319366847}
   - component: {fileID: 4942405512769426599}
+  - component: {fileID: 7904778221805041364}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -940,6 +942,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &7153332151154958815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450061814381226771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e412a222930de439984dea67f99f25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Characters::PlayerInputController
+  m_moveAction: {fileID: 0}
 --- !u!114 &4083791086919947465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -953,7 +968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: JumpyStreet.Characters::CharacterMovement
   m_characterController:
-    rid: 3198014458959233185
+    m_underlyingValue: {fileID: 7153332151154958815}
   m_moveTime: 0.5
   m_moveDistance: 2
   m_jumpHeight: 0.5
@@ -972,20 +987,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  references:
-    version: 2
-    RefIds:
-    - rid: 3198014458959233185
-      type: {class: PlayerInputController, ns: , asm: JumpyStreet.Characters}
-      data:
-        m_moveAction:
-          rid: 3198014458959233186
-    - rid: 3198014458959233186
-      type: {class: 'SerializableAssetReference`1[[UnityEngine.InputSystem.InputActionReference, Unity.InputSystem]]', ns: MatrixUtils.GenericDatatypes, asm: MatrixUtils.GenericDatatypes}
-      data:
-        m_assetGuid: 052faaac586de48259a63d0c4782560b
-        m_localId: -1680190386980627800
-        m_assetPath: Assets/InputSystem_Actions.inputactions
 --- !u!114 &9189287679319366847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1006,10 +1007,10 @@ MonoBehaviour:
   m_onDeath:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1450061814381226771}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 7904778221805041364}
+        m_TargetAssemblyTypeName: SceneTransitionProxy, JumpyStreet.SceneManagement
+        m_MethodName: ReloadScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1033,6 +1034,18 @@ MonoBehaviour:
   m_jumpTrigger: Jump
   m_jumpStateName: Jump
   m_animationLayer: 0
+--- !u!114 &7904778221805041364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450061814381226771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca56021d831c513408be716ce609e5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.SceneManagement::SceneTransitionProxy
 --- !u!1 &1829389022004446040
 GameObject:
   m_ObjectHideFlags: 0
