@@ -6,15 +6,15 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [Serializable]
-public class PlayerInputController : ICharacterController
+public class PlayerInputController : MonoBehaviour, ICharacterController
 {
-    [SerializeReference, RequiredField] SerializableAssetReference<InputActionReference> m_moveAction = new();
+    [SerializeField, RequiredField] InputActionReference m_moveAction;
 
     public event Action<Vector2> RequestMovement;
 
     public void Initialize()
     {
-        InputAction action = m_moveAction.Asset.action;
+        InputAction action = m_moveAction.action;
         if (action == null)
         {
             Debug.LogError("Move action not configured!");
@@ -27,7 +27,7 @@ public class PlayerInputController : ICharacterController
     
     public void DeInitialize()
     {
-        InputAction action = m_moveAction.Asset.action;
+        InputAction action = m_moveAction.action;
         if (action == null) return;
         
         action.started -= OnMoveAction;

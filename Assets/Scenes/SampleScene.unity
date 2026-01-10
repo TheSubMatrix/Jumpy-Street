@@ -738,6 +738,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1662618795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: Player/Move
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_ActionId: 351f2ccd-1f9f-44bf-9bec-d62ac5c5f408
 --- !u!1 &1887861894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,6 +1082,14 @@ PrefabInstance:
         Unity.InputSystem]]'
       objectReference: {fileID: 0}
     - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_characterController.m_underlyingValue
+      value: 
+      objectReference: {fileID: 9059376471426455759}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: managedReferences[3198014458959233186].m_localId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
       propertyPath: managedReferences[3198014458959233184].m_assetGuid
       value: 
       objectReference: {fileID: 0}
@@ -1098,8 +1120,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1450061814381226771, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 9059376471426455759}
   m_SourcePrefab: {fileID: 100100000, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+--- !u!1 &9059376471426455758 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1450061814381226771, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+  m_PrefabInstance: {fileID: 9059376471426455757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9059376471426455759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9059376471426455758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e412a222930de439984dea67f99f25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Characters::PlayerInputController
+  m_moveAction: {fileID: 1662618795}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

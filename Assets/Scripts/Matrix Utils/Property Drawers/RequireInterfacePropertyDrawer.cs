@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System;
 using System.Collections.Generic;
 using UnityEditor;
@@ -63,7 +64,7 @@ public class RequireInterfaceDrawer : PropertyDrawer {
         });
 
         container.Add(objectField);
-        container.Add(InterfaceReferenceUtil.CreateInterfaceLabelOverlay(interfaceType.Name, objectField));
+        container.Add(CreateInterfaceLabelOverlay(interfaceType.Name, objectField));
 
         return container;
 
@@ -119,4 +120,32 @@ public class RequireInterfaceDrawer : PropertyDrawer {
 
         return type;
     }
+
+    static Label CreateInterfaceLabelOverlay(string interfaceName, ObjectField objectField) {
+        Label label = new()
+        {
+            pickingMode = PickingMode.Ignore,
+            style = {
+                position = Position.Absolute,
+                right = 20,
+                top = 1,
+                bottom = 1,
+                unityTextAlign = TextAnchor.MiddleRight,
+                paddingRight = 2,
+                fontSize = 11,
+                color = new Color(0.7f, 0.7f, 0.7f, 1f)
+            }
+        };
+        UpdateLabelText(false);
+        objectField.RegisterCallback<MouseEnterEvent>(_ => UpdateLabelText(true));
+        objectField.RegisterCallback<MouseLeaveEvent>(_ => UpdateLabelText(false));
+        objectField.RegisterValueChangedCallback(_ => UpdateLabelText(false));
+
+        return label;
+
+        void UpdateLabelText(bool isHovering) {
+            label.text = (objectField.value == null || isHovering) ? $"({interfaceName})" : "*";
+        }
+    }
 }
+#endif

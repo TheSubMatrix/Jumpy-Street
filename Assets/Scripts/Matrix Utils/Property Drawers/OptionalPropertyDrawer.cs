@@ -1,4 +1,4 @@
-using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine.UIElements;
 using UnityEditor.UIElements;
@@ -46,3 +46,4 @@ public class OptionalPropertyDrawer : PropertyDrawer
         return container;
     }
 }
+#endif

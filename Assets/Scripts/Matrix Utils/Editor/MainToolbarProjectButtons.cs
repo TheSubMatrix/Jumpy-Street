@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using JetBrains.Annotations;
 using UnityEditor;
 using UnityEditor.Toolbars;
@@ -22,3 +23,4 @@ public class MainToolbarProjectButtons
 		});
 	}
 }
+#endif

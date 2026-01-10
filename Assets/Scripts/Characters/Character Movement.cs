@@ -8,7 +8,7 @@ using UnityEngine.Events;
 [RequireComponent(typeof(Rigidbody))]
 public class CharacterMovement : MonoBehaviour
 {
-    [RequiredField, SerializeReference, ClassSelector] ICharacterController m_characterController;
+    [RequiredField, SerializeField] InterfaceReference<ICharacterController> m_characterController;
     [SerializeField] float m_moveTime;
     [SerializeField] float m_moveDistance;
     [SerializeField] float m_jumpHeight;
@@ -24,15 +24,15 @@ public class CharacterMovement : MonoBehaviour
 
     void OnEnable()
     {
-        m_characterController.Initialize();
-        m_characterController.RequestMovement += OnMoveRequested;
+        m_characterController.Value.Initialize();
+        m_characterController.Value.RequestMovement += OnMoveRequested;
         m_rigidbody = GetComponent<Rigidbody>();
     }
     
     void OnDisable()
     {
-        m_characterController.RequestMovement -= OnMoveRequested;
-        m_characterController.DeInitialize();
+        m_characterController.Value.RequestMovement -= OnMoveRequested;
+        m_characterController.Value.DeInitialize();
     }
 
     void OnCollisionExit(Collision collision)
