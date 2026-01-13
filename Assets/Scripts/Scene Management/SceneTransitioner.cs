@@ -20,18 +20,18 @@ public class SceneTransitioner : PersistentService<ISceneTransitioner>, ISceneTr
         m_screenFadeGroup.interactable = false;
         m_screenFadeGroup.blocksRaycasts = false;
     }
-    public void RequestTransitionTo(string sceneName)
+    public void RequestTransitionTo(string sceneName, float transitionTime = 1f)
     {
         if(IsTransitioning) return;
         IsTransitioning = true;
-        StartCoroutine(TransitionSceneAsync(sceneName));
+        StartCoroutine(TransitionSceneAsync(sceneName, transitionTime));
     }
 
-    IEnumerator TransitionSceneAsync(string sceneName)
+    IEnumerator TransitionSceneAsync(string sceneName, float transitionTime = 1f)
     {
-        yield return FadeCanvasGroupAsync(m_screenFadeGroup, 1);
+        yield return FadeCanvasGroupAsync(m_screenFadeGroup, 1, transitionTime / 2);
         yield return SceneManager.LoadSceneAsync(sceneName);
-        yield return FadeCanvasGroupAsync(m_screenFadeGroup, 0);
+        yield return FadeCanvasGroupAsync(m_screenFadeGroup, 0, transitionTime / 2);
         IsTransitioning = false;
     }
 
