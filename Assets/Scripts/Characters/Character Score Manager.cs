@@ -4,8 +4,6 @@ using UnityEngine;
 public class CharacterScoreManager : MonoBehaviour
 {
     Vector3 m_startPosition;
-    uint m_jumpCount;
-    
     [Inject]
     IScoreManager m_scoreManager;
 
@@ -13,14 +11,18 @@ public class CharacterScoreManager : MonoBehaviour
     {
         ResetGame();
     }
-    public void UpdateScore()
+    public void UpdateDistanceTraveled()
     {
-        m_scoreManager.UpdateScore((uint)Mathf.Max(0, Mathf.RoundToInt(Vector3.Distance(transform.position, m_startPosition))));
+        if ((uint)Mathf.RoundToInt(Vector3.Distance(m_startPosition, transform.position)) > (uint)Mathf.RoundToInt(m_scoreManager.CurrentScoreDataObserver.Value.Distance))
+        {
+            m_scoreManager.IncrementScore((uint)(Mathf.RoundToInt(Vector3.Distance(m_startPosition, transform.position)) - Mathf.RoundToInt(m_scoreManager.CurrentScoreDataObserver.Value.Distance)));
+            m_scoreManager.UpdateDistanceTraveled(Vector3.Distance(m_startPosition, transform.position));
+        }
     }
 
     public void IncrementJumpCount()
     {
-        m_scoreManager.UpdateJumpCount(++m_jumpCount);
+        m_scoreManager.IncrementJumpCount();
     }
     
     public void GameComplete()
@@ -30,10 +32,7 @@ public class CharacterScoreManager : MonoBehaviour
 
     public void ResetGame()
     {
-        m_startPosition =  transform.position;
-        UpdateScore();
-        m_jumpCount = 0;
-        m_scoreManager.UpdateJumpCount(m_jumpCount);
-        
+        m_scoreManager.GameComplete();
+        m_startPosition =  transform.position;     
     }
 }

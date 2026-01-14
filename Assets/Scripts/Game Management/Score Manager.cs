@@ -14,20 +14,36 @@ public class ScoreManager : MonoBehaviour, IScoreManager, IDependencyProvider
     static void SaveToPath(HighScoreData highScoreData) => File.WriteAllText(HighScoreDataPath, JsonUtility.ToJson(highScoreData));
     static HighScoreData ReadFromPath() => JsonUtility.FromJson<HighScoreData>(File.ReadAllText(HighScoreDataPath));
     
-    public void UpdateScore(uint newScore)
+    public void IncrementScore(uint amount = 1)
     {
-        CurrentScoreDataObserver.Value.Score = newScore;
+        CurrentScoreDataObserver.Value.Score+= amount;
         CurrentScoreDataObserver.Notify();
-        Debug.Log($"Score: {CurrentScoreDataObserver.Value.Score}");
+        Debug.Log(CurrentScoreDataObserver.Value.Score);
     }
 
-    public void UpdateJumpCount(uint newJumpCount)
+    public void DecrementScore()
     {
-        CurrentScoreDataObserver.Value.Jumps = newJumpCount;
+        CurrentScoreDataObserver.Value.Score--;
         CurrentScoreDataObserver.Notify();
-        Debug.Log($"Jumps: {CurrentScoreDataObserver.Value.Jumps}");
+        Debug.Log(CurrentScoreDataObserver.Value.Score);
     }
 
+    public void IncrementJumpCount()
+    {
+        CurrentScoreDataObserver.Value.Jumps++;
+        CurrentScoreDataObserver.Notify();
+    }
+
+    public void DecrementJumpCount()
+    {
+        CurrentScoreDataObserver.Value.Jumps--;
+        CurrentScoreDataObserver.Notify();
+    }
+    public void UpdateDistanceTraveled(float updatedScore)
+    {
+        CurrentScoreDataObserver.Value.Distance = updatedScore;
+        CurrentScoreDataObserver.Notify();
+    }
     public Observer<HighScoreData> CurrentScoreDataObserver{ get; } = new(new());
     public Observer<HighScoreData> HighScoreDataObserver { get; } = new(new());
 
@@ -50,18 +66,21 @@ public class ScoreManager : MonoBehaviour, IScoreManager, IDependencyProvider
             HighScoreDataObserver.Value = new(current);
         }
         SaveToPath(HighScoreDataObserver.Value);
+        CurrentScoreDataObserver.Value = new();
     }
 
     public class HighScoreData
     {
         public uint Score;
         public uint Jumps;
+        public float Distance;
         public HighScoreData(){}
 
         public HighScoreData(HighScoreData highScoreData)
         {
             Score = highScoreData.Score;
             Jumps = highScoreData.Jumps;
+            Distance = highScoreData.Distance;
         }
     }
 }

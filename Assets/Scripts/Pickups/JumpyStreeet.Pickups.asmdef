@@ -1,0 +1,18 @@
+{
+    "name": "JumpyStreeet.Pickups",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6af97dccfc1dd8748a23e6e573e1435a",
+        "GUID:f6a0da6c76f2acf47af6e835216b3f47",
+        "GUID:e6120cbfb4ca74a49916aa1231625623"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
