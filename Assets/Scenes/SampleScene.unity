@@ -688,39 +688,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2554694423335832601, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
   m_PrefabInstance: {fileID: 9059376471426455757}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &520449518 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2816965794948432045, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-  m_PrefabInstance: {fileID: 9059376471426455757}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4855538d78d3674fab0fadd7b739cec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: JumpyStreet.Characters::CharacterScoreManager
---- !u!114 &520449519 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7904778221805041364, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-  m_PrefabInstance: {fileID: 9059376471426455757}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca56021d831c513408be716ce609e5b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: JumpyStreet.SceneManagement::SceneTransitionProxy
---- !u!114 &520449522 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-  m_PrefabInstance: {fileID: 9059376471426455757}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1972ec8aa813940881cd9691bb7648, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: JumpyStreet.Characters::CharacterMovement
 --- !u!1 &796307458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,66 +1332,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: UpdateDistanceTraveled
-      objectReference: {fileID: 0}
     - target: {fileID: 7153332151154958815, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
       propertyPath: m_moveAction
       value: 
       objectReference: {fileID: 1662618795}
-    - target: {fileID: 9189287679319366847, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onDeath.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9189287679319366847, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9189287679319366847, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 520449522}
-    - target: {fileID: 9189287679319366847, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 520449518}
-    - target: {fileID: 9189287679319366847, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 520449519}
-    - target: {fileID: 9189287679319366847, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9189287679319366847, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DisableMovement
-      objectReference: {fileID: 0}
-    - target: {fileID: 9189287679319366847, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ResetGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 9189287679319366847, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: ReloadScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 9189287679319366847, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onDeath.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CharacterMovement, JumpyStreet.Characters
-      objectReference: {fileID: 0}
-    - target: {fileID: 9189287679319366847, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: CharacterScoreManager, JumpyStreet.Characters
-      objectReference: {fileID: 0}
-    - target: {fileID: 9189287679319366847, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: SceneTransitionProxy, JumpyStreet.SceneManagement
-      objectReference: {fileID: 0}
-    - target: {fileID: 9189287679319366847, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onDeath.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
