@@ -6,12 +6,6 @@ using JetBrains.Annotations;
 
 public class MenuScript : MonoBehaviour
 {
-    public Button startButton;
-    public Button optionsButton;
-    public Button controlsButton;
-    public Button creditsButton;
-    public Button quitButton;
-
     public GameObject menuScreen;
     public GameObject optionsScreen;
     public GameObject controlsScreen;
@@ -29,17 +23,17 @@ public class MenuScript : MonoBehaviour
     }
 
 
-    void OnClickQuit()
+    public void OnClickQuit()
     {
         Application.Quit();
     }
 
-    void OnClickStart()
+    public void OnClickStart()
     {
         playerUI.SetActive(true);
     }
 
-    void OnClickOptions()
+    public void OnClickOptions()
     {
         menuScreen.SetActive(false);
         optionsScreen.SetActive(true);
@@ -48,7 +42,7 @@ public class MenuScript : MonoBehaviour
         playerUI.SetActive(false);
     }
 
-    void OnClickCredits()
+    public void OnClickCredits()
     {
         menuScreen.SetActive(false);
         optionsScreen.SetActive(false);
@@ -57,7 +51,7 @@ public class MenuScript : MonoBehaviour
         playerUI.SetActive(false);
     }
 
-    void OnClickControls()
+    public void OnClickControls()
     {
         menuScreen.SetActive(false);
         optionsScreen.SetActive(false);
