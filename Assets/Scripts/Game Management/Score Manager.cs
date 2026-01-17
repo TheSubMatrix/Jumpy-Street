@@ -11,8 +11,8 @@ public class ScoreManager : MonoBehaviour, IScoreManager, IDependencyProvider
     
     static string HighScoreDataPath => Path.Combine(Application.persistentDataPath, "HighScore.json");
     
-    static void SaveToPath(HighScoreData highScoreData) => File.WriteAllText(HighScoreDataPath, JsonUtility.ToJson(highScoreData));
-    static HighScoreData ReadFromPath() => JsonUtility.FromJson<HighScoreData>(File.ReadAllText(HighScoreDataPath));
+    static void SaveToPath(ScoreData scoreData) => File.WriteAllText(HighScoreDataPath, JsonUtility.ToJson(scoreData));
+    static ScoreData ReadFromPath() => JsonUtility.FromJson<ScoreData>(File.ReadAllText(HighScoreDataPath));
     
     public void IncrementScore(uint amount = 1)
     {
@@ -44,14 +44,14 @@ public class ScoreManager : MonoBehaviour, IScoreManager, IDependencyProvider
         CurrentScoreDataObserver.Value.Distance = updatedScore;
         CurrentScoreDataObserver.Notify();
     }
-    public Observer<HighScoreData> CurrentScoreDataObserver{ get; } = new(new());
-    public Observer<HighScoreData> HighScoreDataObserver { get; } = new(new());
+    public Observer<ScoreData> CurrentScoreDataObserver{ get; } = new(new());
+    public Observer<ScoreData> HighScoreDataObserver { get; } = new(new());
 
     public void Awake()
     {
         if (!File.Exists(HighScoreDataPath))
         {
-            File.WriteAllText(HighScoreDataPath, JsonUtility.ToJson(new HighScoreData()));
+            File.WriteAllText(HighScoreDataPath, JsonUtility.ToJson(new ScoreData()));
         }
         HighScoreDataObserver.Value = ReadFromPath();
         HighScoreDataObserver.Notify();
@@ -59,28 +59,14 @@ public class ScoreManager : MonoBehaviour, IScoreManager, IDependencyProvider
 
     public void GameComplete()
     {
-        HighScoreData current = CurrentScoreDataObserver.Value;
-        HighScoreData highScore = HighScoreDataObserver.Value;
-        if (current.Score > highScore.Score || (current.Score == highScore.Score && current.Jumps < highScore.Jumps))
+        ScoreData current = CurrentScoreDataObserver.Value;
+        ScoreData score = HighScoreDataObserver.Value;
+        if (current.Score > score.Score || (current.Score == score.Score && current.Jumps < score.Jumps))
         {
             HighScoreDataObserver.Value = new(current);
+            SaveToPath(HighScoreDataObserver.Value);
         }
-        SaveToPath(HighScoreDataObserver.Value);
         CurrentScoreDataObserver.Value = new();
-    }
-
-    public class HighScoreData
-    {
-        public uint Score;
-        public uint Jumps;
-        public float Distance;
-        public HighScoreData(){}
-
-        public HighScoreData(HighScoreData highScoreData)
-        {
-            Score = highScoreData.Score;
-            Jumps = highScoreData.Jumps;
-            Distance = highScoreData.Distance;
-        }
+        CurrentScoreDataObserver.Notify();
     }
 }

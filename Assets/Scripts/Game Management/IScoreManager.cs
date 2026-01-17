@@ -7,7 +7,7 @@ public interface IScoreManager
     void IncrementJumpCount();
     void DecrementJumpCount();
     void UpdateDistanceTraveled(float distanceTraveled);
-    Observer<ScoreManager.HighScoreData> CurrentScoreDataObserver { get; }
-    Observer<ScoreManager.HighScoreData> HighScoreDataObserver { get; }
+    Observer<ScoreData> CurrentScoreDataObserver { get; }
+    Observer<ScoreData> HighScoreDataObserver { get; }
     void GameComplete();
 }

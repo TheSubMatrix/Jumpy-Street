@@ -13,11 +13,12 @@ public class CharacterScoreManager : MonoBehaviour
     }
     public void UpdateDistanceTraveled()
     {
-        if ((uint)Mathf.RoundToInt(Vector3.Distance(m_startPosition, transform.position)) > (uint)Mathf.RoundToInt(m_scoreManager.CurrentScoreDataObserver.Value.Distance))
-        {
-            m_scoreManager.IncrementScore((uint)(Mathf.RoundToInt(Vector3.Distance(m_startPosition, transform.position)) - Mathf.RoundToInt(m_scoreManager.CurrentScoreDataObserver.Value.Distance)));
-            m_scoreManager.UpdateDistanceTraveled(Vector3.Distance(m_startPosition, transform.position));
-        }
+        float currentDistance = Vector3.Distance(m_startPosition, transform.position);
+        uint currentDistanceRounded = (uint)Mathf.RoundToInt(currentDistance);
+        uint storedDistance = (uint)Mathf.RoundToInt(m_scoreManager.CurrentScoreDataObserver.Value.Distance);
+        if (currentDistanceRounded <= storedDistance) return;
+        m_scoreManager.IncrementScore(currentDistanceRounded - storedDistance);
+        m_scoreManager.UpdateDistanceTraveled(currentDistance);
     }
 
     public void IncrementJumpCount()
