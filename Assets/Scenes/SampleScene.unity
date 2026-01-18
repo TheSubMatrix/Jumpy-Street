@@ -858,8 +858,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0918b4b8a39ad764a9fd7f3a8a162fb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: JumpyStreet.Obstacles::MovingPlatform
-  m_targetOffset: {x: 5, y: 0, z: 0}
-  m_moveTime: 3
+  m_waypoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: 5, y: 0, z: 0}
+  - {x: 5, y: -2, z: 0}
+  - {x: 0, y: -2, z: 0}
+  m_moveSpeed: 2
+  m_navigator:
+    rid: 3198014637293961305
+  references:
+    version: 2
+    RefIds:
+    - rid: 3198014637293961305
+      type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
+      data: 
 --- !u!65 &796307460
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -975,8 +987,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1674,6 +1686,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1088636323759960868
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8187211476870207985, guid: 3ebce5687a14a8f43aec54c83390f6af, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187211476870207985, guid: 3ebce5687a14a8f43aec54c83390f6af, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187211476870207985, guid: 3ebce5687a14a8f43aec54c83390f6af, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187211476870207985, guid: 3ebce5687a14a8f43aec54c83390f6af, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187211476870207985, guid: 3ebce5687a14a8f43aec54c83390f6af, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187211476870207985, guid: 3ebce5687a14a8f43aec54c83390f6af, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187211476870207985, guid: 3ebce5687a14a8f43aec54c83390f6af, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187211476870207985, guid: 3ebce5687a14a8f43aec54c83390f6af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187211476870207985, guid: 3ebce5687a14a8f43aec54c83390f6af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187211476870207985, guid: 3ebce5687a14a8f43aec54c83390f6af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559301528608902624, guid: 3ebce5687a14a8f43aec54c83390f6af, type: 3}
+      propertyPath: m_Name
+      value: Sound Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ebce5687a14a8f43aec54c83390f6af, type: 3}
 --- !u!1001 &9059376471426455757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1730,6 +1799,14 @@ PrefabInstance:
       propertyPath: m_moveAction
       value: 
       objectReference: {fileID: 1662618795}
+    - target: {fileID: 7829699531340287261, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_jumpSound.MixerGroup
+      value: 
+      objectReference: {fileID: -730871727296524628, guid: cc1397e0f25aa5d4b9ce1a55d902d55d, type: 2}
+    - target: {fileID: 7829699531340287261, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_deathSound.MixerGroup
+      value: 
+      objectReference: {fileID: -730871727296524628, guid: cc1397e0f25aa5d4b9ce1a55d902d55d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1752,3 +1829,4 @@ SceneRoots:
   - {fileID: 290610074}
   - {fileID: 403144461}
   - {fileID: 1161343650}
+  - {fileID: 1088636323759960868}

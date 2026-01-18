@@ -18,14 +18,12 @@ public class ScoreManager : MonoBehaviour, IScoreManager, IDependencyProvider
     {
         CurrentScoreDataObserver.Value.Score+= amount;
         CurrentScoreDataObserver.Notify();
-        Debug.Log(CurrentScoreDataObserver.Value.Score);
     }
 
     public void DecrementScore()
     {
         CurrentScoreDataObserver.Value.Score--;
         CurrentScoreDataObserver.Notify();
-        Debug.Log(CurrentScoreDataObserver.Value.Score);
     }
 
     public void IncrementJumpCount()

@@ -1,16 +1,18 @@
+using System;
+using System.Collections.Generic;
+using AudioSystem;
 using UnityEngine;
 
 public class CharacterSoundPlayer : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] SoundData m_deathSound;
+    [SerializeField] SoundData m_jumpSound;
+    public void PlayDeathSound()
     {
-        
+        SoundManager.Instance?.CreateSound().WithSoundData(m_deathSound).WithPosition(transform.position).WithRandomPitch().Play();
     }
-
-    // Update is called once per frame
-    void Update()
+    public void PlayJumpSound()
     {
-        
+        SoundManager.Instance?.CreateSound().WithSoundData(m_jumpSound).WithPosition(transform.position).WithRandomPitch().Play();
     }
 }

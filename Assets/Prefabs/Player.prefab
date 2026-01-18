@@ -832,6 +832,7 @@ GameObject:
   - component: {fileID: 4942405512769426599}
   - component: {fileID: 7904778221805041364}
   - component: {fileID: 2816965794948432045}
+  - component: {fileID: 7829699531340287261}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -988,6 +989,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7829699531340287261}
+        m_TargetAssemblyTypeName: CharacterSoundPlayer, JumpyStreet.Characters
+        m_MethodName: PlayJumpSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_onJumpComplete:
     m_PersistentCalls:
       m_Calls:
@@ -1086,6 +1099,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7829699531340287261}
+        m_TargetAssemblyTypeName: CharacterSoundPlayer, JumpyStreet.Characters
+        m_MethodName: PlayDeathSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4942405512769426599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1132,6 +1157,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4855538d78d3674fab0fadd7b739cec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: JumpyStreet.Characters::CharacterScoreManager
+--- !u!114 &7829699531340287261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450061814381226771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9a49ea9b03b4144b34b3b92cf38933, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Characters::CharacterSoundPlayer
+  m_deathSound:
+    Clip: {fileID: 0}
+    MixerGroup: {fileID: -730871727296524628, guid: cc1397e0f25aa5d4b9ce1a55d902d55d, type: 2}
+    Loop: 0
+    PlayOnAwake: 0
+    PlayedFrequently: 0
+    Volume: 1
+    Pitch: 1
+    PanStereo: 0
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+    DopplerLevel: 1
+    Spread: 0
+    MinDistance: 1
+    MaxDistance: 500
+    IgnoreListenerVolume: 0
+    IgnoreListenerPause: 0
+    RolloffMode: 0
+  m_jumpSound:
+    Clip: {fileID: 0}
+    MixerGroup: {fileID: -730871727296524628, guid: cc1397e0f25aa5d4b9ce1a55d902d55d, type: 2}
+    Loop: 0
+    PlayOnAwake: 0
+    PlayedFrequently: 0
+    Volume: 1
+    Pitch: 1
+    PanStereo: 0
+    SpatialBlend: 0
+    ReverbZoneMix: 1
+    DopplerLevel: 1
+    Spread: 0
+    MinDistance: 1
+    MaxDistance: 500
+    IgnoreListenerVolume: 0
+    IgnoreListenerPause: 0
+    RolloffMode: 0
 --- !u!1 &1829389022004446040
 GameObject:
   m_ObjectHideFlags: 0

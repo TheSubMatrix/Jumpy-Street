@@ -1,31 +1,53 @@
 using UnityEngine;
+using System.Collections.Generic;
+using MatrixUtils.Attributes;
 
 [RequireComponent(typeof(Rigidbody))]
 public class MovingPlatform : MonoBehaviour
 {
-    [SerializeField] Vector3 m_targetOffset = new(5f, 0f, 0f);
-    [SerializeField] float m_moveTime = 3f;
-
+    [SerializeField] List<Vector3> m_waypoints;
+    [SerializeField] float m_moveSpeed = 2f;
+    [ClassSelector, SerializeReference] WaypointNavigator m_navigator;
+    
     Rigidbody m_rigidbody;
-    Vector3 m_startPos;
-    Vector3 m_endPos;
-    float m_elapsedTime;
+    Vector3 m_startPosition;
+    float m_journeyProgress;
+    float m_journeyLength;
 
     void Awake()
     {
         m_rigidbody = GetComponent<Rigidbody>();
-        m_rigidbody.isKinematic = true;
-        m_rigidbody.interpolation = RigidbodyInterpolation.Interpolate;
-        m_startPos = transform.position;
-        m_endPos = m_startPos + m_targetOffset;
+        m_startPosition = transform.position;
+        
+        // Convert local waypoints to world space
+        List<Vector3> worldWaypoints = new List<Vector3>();
+        if (m_waypoints.Count == 0)
+        {
+            worldWaypoints.Add(m_startPosition);
+        }
+        else
+        {
+            foreach (Vector3 localWaypoint in m_waypoints)
+            {
+                worldWaypoints.Add(m_startPosition + localWaypoint);
+            }
+        }
+        
+        m_navigator.Initialize(worldWaypoints);
+        m_journeyLength = Vector3.Distance(m_navigator.CurrentWaypoint, m_navigator.NextWaypoint);
     }
-
+    
     void FixedUpdate()
     {
-        m_elapsedTime += Time.fixedDeltaTime;
-        float t = Mathf.PingPong(m_elapsedTime / m_moveTime, 1f);
+        if (m_waypoints.Count < 2 || !m_navigator.ShouldContinue()) return;
+        m_journeyProgress += m_moveSpeed * Time.fixedDeltaTime;
+        float t = Mathf.Clamp01(m_journeyProgress / m_journeyLength);
         t = Mathf.SmoothStep(0f, 1f, t);
-        Vector3 targetPosition = Vector3.Lerp(m_startPos, m_endPos, t);
+        Vector3 targetPosition = Vector3.Lerp(m_navigator.CurrentWaypoint, m_navigator.NextWaypoint, t);
         m_rigidbody.MovePosition(targetPosition);
+        if (!(t >= 1f)) return;
+        m_journeyProgress = 0f;
+        m_navigator.Advance();
+        m_journeyLength = Vector3.Distance(m_navigator.CurrentWaypoint, m_navigator.NextWaypoint);
     }
 }
