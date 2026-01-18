@@ -10,9 +10,9 @@ namespace ShaderGraph.Helpers
         { }
         public override void ModifyMesh(VertexHelper vh)
         {
-            Bounds bounds = new Bounds();
+            Bounds bounds = new();
 
-            UIVertex vert = new UIVertex();
+            UIVertex vert = new();
             for (int i = 0; i < vh.currentVertCount; i++)
             {
                 vh.PopulateUIVertex(ref vert, i);
@@ -22,11 +22,11 @@ namespace ShaderGraph.Helpers
             {
                 vh.PopulateUIVertex(ref vert, i);
 
-                Vector2 normalizedPosition = new Vector2(
+                Vector2 normalizedPosition = new(
                     Mathf.InverseLerp(bounds.min.x, bounds.max.x, vert.position.x),
                     Mathf.InverseLerp(bounds.min.y, bounds.max.y, vert.position.y));
 
-                vert.uv0 = new Vector4(vert.uv0.x, vert.uv0.y, normalizedPosition.x, normalizedPosition.y);
+                vert.uv0 = new(vert.uv0.x, vert.uv0.y, normalizedPosition.x, normalizedPosition.y);
 
                 vh.SetUIVertex(vert, i);
             }
