@@ -15,7 +15,7 @@ public class CharacterMovement : MonoBehaviour
     
     [Header("Events")]
     [SerializeField] UnityEvent<Vector2, float> m_onJump = new();
-    [SerializeField] UnityEvent m_onJumpComplete = new();
+    [SerializeField] UnityEvent<Vector3> m_onJumpComplete = new();
     [SerializeField] UnityEvent<float> m_onBounceBack = new();
     
     Rigidbody m_rigidbody;
@@ -55,7 +55,7 @@ public class CharacterMovement : MonoBehaviour
 
     void OnMoveRequested(Vector2 movementVector)
     {
-        if (m_currentMoveRoutine != null || !IsGrounded || !m_canMove) return;
+        if (m_currentMoveRoutine != null || !IsGrounded || !m_canMove || movementVector.magnitude <= 0) return;
         m_currentMoveRoutine = StartCoroutine(MoveCharacter(movementVector));
     }
 
@@ -115,7 +115,7 @@ public class CharacterMovement : MonoBehaviour
 
         m_isMoving = false;
         m_currentMoveRoutine = null;
-        m_onJumpComplete.Invoke();
+        m_onJumpComplete.Invoke(transform.position);
     }
 
     IEnumerator AnimateMove(Vector3 start, Vector3 offset, Rigidbody ground, Vector3 groundStart)

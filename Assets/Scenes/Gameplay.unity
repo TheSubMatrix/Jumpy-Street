@@ -1048,6 +1048,17 @@ MonoBehaviour:
   m_scoreText: {fileID: 1828780073}
   m_highScorePrefix: 'High Score: '
   m_highScoreText: {fileID: 459203918}
+--- !u!114 &1569663085 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2816965794948432045, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+  m_PrefabInstance: {fileID: 9059376471426455757}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4855538d78d3674fab0fadd7b739cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Characters::CharacterScoreManager
 --- !u!1 &1590192790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1059,7 +1070,7 @@ GameObject:
   - component: {fileID: 1590192792}
   - component: {fileID: 1590192791}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Environment Generator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1080,6 +1091,9 @@ MonoBehaviour:
   m_tileSize: {x: 10, y: 0, z: 10}
   m_tilePools:
   - m_tilePrefab: {fileID: 3081169712567354557, guid: 7651cd92af25c6442bfc182fd2f91280, type: 3}
+  m_tilesAhead: 5
+  m_tilesBehind: 2
+  m_tilesPerRow: 3
 --- !u!4 &1590192792
 Transform:
   m_ObjectHideFlags: 0
@@ -1308,7 +1322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineFollow
   TrackerSettings:
     BindingMode: 4
-    PositionDamping: {x: 1, y: 1, z: 1}
+    PositionDamping: {x: 0.5, y: 0.5, z: 0.5}
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
@@ -1741,6 +1755,54 @@ PrefabInstance:
     - target: {fileID: 2554694423335832601, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1590192791}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1569663085}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnPlayerMoved
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: IncrementJumpCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: UpdateDistanceTraveled
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelGenerator, JumpyStreet.Levels
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: CharacterScoreManager, JumpyStreet.Characters
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
+      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7153332151154958815, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
       propertyPath: m_moveAction
