@@ -1088,12 +1088,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8ca2afca942d164ba6fe2913dc345cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelGenerator
-  m_tileSize: {x: 10, y: 0, z: 10}
+  m_tileSize: {x: 30, y: 0, z: 30}
   m_tilePools:
-  - m_tilePrefab: {fileID: 3081169712567354557, guid: 7651cd92af25c6442bfc182fd2f91280, type: 3}
-  m_tilesAhead: 5
-  m_tilesBehind: 2
-  m_tilesPerRow: 3
+  - m_tilePrefab: {fileID: 628375582064517887, guid: c17769a6d877f3641bda4ee917fd0135, type: 3}
+  m_tilesAhead: 3
+  m_tilesBehind: 1
 --- !u!4 &1590192792
 Transform:
   m_ObjectHideFlags: 0
