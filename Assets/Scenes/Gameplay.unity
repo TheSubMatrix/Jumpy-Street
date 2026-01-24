@@ -1048,17 +1048,6 @@ MonoBehaviour:
   m_scoreText: {fileID: 1828780073}
   m_highScorePrefix: 'High Score: '
   m_highScoreText: {fileID: 459203918}
---- !u!114 &1569663085 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2816965794948432045, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-  m_PrefabInstance: {fileID: 9059376471426455757}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4855538d78d3674fab0fadd7b739cec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: JumpyStreet.Characters::CharacterScoreManager
 --- !u!1 &1590192790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,9 +1077,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8ca2afca942d164ba6fe2913dc345cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelGenerator
-  m_tileSize: {x: 30, y: 0, z: 30}
+  m_tileSize: {x: 35, y: 0, z: 35}
   m_tilePools:
   - m_tilePrefab: {fileID: 628375582064517887, guid: c17769a6d877f3641bda4ee917fd0135, type: 3}
+  - m_tilePrefab: {fileID: 628375582064517887, guid: 0296958680a01504685aa40e88aaa4a2, type: 3}
   m_tilesAhead: 3
   m_tilesBehind: 1
 --- !u!4 &1590192792
@@ -1646,7 +1636,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ebce5687a14a8f43aec54c83390f6af, type: 3}
---- !u!1001 &2980757676846145725
+--- !u!1001 &1985617944295658560
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1654,47 +1644,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4932156735341683024, guid: a584d51c8f57fd145b93f86239557373, type: 3}
+    - target: {fileID: 939479785273173590, guid: a584d51c8f57fd145b93f86239557373, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4932156735341683024, guid: a584d51c8f57fd145b93f86239557373, type: 3}
+    - target: {fileID: 939479785273173590, guid: a584d51c8f57fd145b93f86239557373, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4932156735341683024, guid: a584d51c8f57fd145b93f86239557373, type: 3}
+    - target: {fileID: 939479785273173590, guid: a584d51c8f57fd145b93f86239557373, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4932156735341683024, guid: a584d51c8f57fd145b93f86239557373, type: 3}
+    - target: {fileID: 939479785273173590, guid: a584d51c8f57fd145b93f86239557373, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4932156735341683024, guid: a584d51c8f57fd145b93f86239557373, type: 3}
+    - target: {fileID: 939479785273173590, guid: a584d51c8f57fd145b93f86239557373, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4932156735341683024, guid: a584d51c8f57fd145b93f86239557373, type: 3}
+    - target: {fileID: 939479785273173590, guid: a584d51c8f57fd145b93f86239557373, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4932156735341683024, guid: a584d51c8f57fd145b93f86239557373, type: 3}
+    - target: {fileID: 939479785273173590, guid: a584d51c8f57fd145b93f86239557373, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4932156735341683024, guid: a584d51c8f57fd145b93f86239557373, type: 3}
+    - target: {fileID: 939479785273173590, guid: a584d51c8f57fd145b93f86239557373, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4932156735341683024, guid: a584d51c8f57fd145b93f86239557373, type: 3}
+    - target: {fileID: 939479785273173590, guid: a584d51c8f57fd145b93f86239557373, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4932156735341683024, guid: a584d51c8f57fd145b93f86239557373, type: 3}
+    - target: {fileID: 939479785273173590, guid: a584d51c8f57fd145b93f86239557373, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8056109889905404438, guid: a584d51c8f57fd145b93f86239557373, type: 3}
+    - target: {fileID: 1702701142221708334, guid: a584d51c8f57fd145b93f86239557373, type: 3}
       propertyPath: m_Name
       value: Score Manager
       objectReference: {fileID: 0}
@@ -1756,53 +1746,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
       propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1590192791}
-    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 1569663085}
-    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnPlayerMoved
-      objectReference: {fileID: 0}
-    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: IncrementJumpCount
-      objectReference: {fileID: 0}
-    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: UpdateDistanceTraveled
-      objectReference: {fileID: 0}
-    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: LevelGenerator, JumpyStreet.Levels
-      objectReference: {fileID: 0}
-    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: CharacterScoreManager, JumpyStreet.Characters
-      objectReference: {fileID: 0}
-    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 7153332151154958815, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
       propertyPath: m_moveAction
       value: 
@@ -1824,9 +1770,9 @@ SceneRoots:
   - {fileID: 796307463}
   - {fileID: 9059376471426455757}
   - {fileID: 2020977477}
-  - {fileID: 2980757676846145725}
   - {fileID: 290610074}
   - {fileID: 403144461}
   - {fileID: 1161343650}
   - {fileID: 1088636323759960868}
   - {fileID: 1590192792}
+  - {fileID: 1985617944295658560}

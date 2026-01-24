@@ -6,10 +6,11 @@ using UnityEngine.Events;
 public class ScorePickup : MonoBehaviour
 {
     [Inject, UsedImplicitly]
-    IScoreManager scoreManager;
-
-    private void OnTriggerEnter(Collider other)
+    IScoreWriter m_scoreWriter;
+    [Inject, UsedImplicitly]
+    IScoreReader m_scoreReader;
+    void OnTriggerEnter(Collider other)
     {
-        scoreManager.IncrementScore();
+        m_scoreWriter.UpdateCurrentExtraPoints(m_scoreReader.GetHighScore().ExtraPoints + 1);
     }
 }

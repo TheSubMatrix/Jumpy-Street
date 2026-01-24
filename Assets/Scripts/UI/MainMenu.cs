@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
-    [Inject] IScoreManager m_scoreManager;
+    [Inject] IScoreReader m_scoreManager;
     [Inject] ISceneTransitioner m_sceneTransitioner;
     [SerializeField, RequiredField] CanvasGroup m_instructionPanelGroup;
     [SerializeField, RequiredField] CanvasGroup m_controlsPanelGroup;
@@ -24,18 +24,18 @@ public class MainMenu : MonoBehaviour
         SetPanelState(m_controlsPanelGroup, false);
         SetPanelState(m_creditsPanelGroup, false);
         m_highScorePrefix = m_highScoreText.text;
-        UpdateHighScoreText(m_scoreManager.HighScoreDataObserver.Value);
-        m_scoreManager.HighScoreDataObserver.AddListener(UpdateHighScoreText);
+        UpdateHighScoreText(m_scoreManager.GetHighScore());
+        m_scoreManager.OnHighScoreUpdated.AddListener(UpdateHighScoreText);
     }
 
     void OnDestroy()
     {
-        m_scoreManager.HighScoreDataObserver.RemoveListener(UpdateHighScoreText);
+        m_scoreManager.OnHighScoreUpdated.RemoveListener(UpdateHighScoreText);
     }
     
     void UpdateHighScoreText(ScoreData scoreData)
     {
-        m_highScoreText.text = m_highScorePrefix + scoreData.Score;
+        m_highScoreText.text = m_highScorePrefix + scoreData.Total;
     }
     
     static void SetPanelState(CanvasGroup panel, bool active)

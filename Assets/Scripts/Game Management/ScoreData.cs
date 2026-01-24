@@ -1,14 +1,14 @@
-﻿public class ScoreData
-{
-    public uint Score;
-    public uint Jumps;
-    public float Distance;
-    public ScoreData(){}
+using UnityEngine;
 
-    public ScoreData(ScoreData scoreData)
+public class ScoreData
+{
+    public float Distance;
+    public float ExtraPoints;
+
+    public ScoreData(float distance = 0, float extraPoints = 0)
     {
-        Score = scoreData.Score;
-        Jumps = scoreData.Jumps;
-        Distance = scoreData.Distance;
+        Distance = distance;
+        ExtraPoints = extraPoints;
     }
+    public float Total => Mathf.RoundToInt(Distance + ExtraPoints);
 }

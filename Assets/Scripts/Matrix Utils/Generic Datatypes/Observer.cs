@@ -37,7 +37,7 @@ namespace MatrixUtils.GenericDatatypes
 
         public Observer(T value, UnityAction<T> callback = null)
         {
-            m_onValueChanged = new UnityEvent<T>();
+            m_onValueChanged = new();
             if (callback is not null) m_onValueChanged.AddListener(callback);
             Value = value;
         }
@@ -73,7 +73,7 @@ namespace MatrixUtils.GenericDatatypes
         public void RemoveListener(UnityAction<T> callback)
         {
             if (callback is null) return;
-            m_onValueChanged ??= new UnityEvent<T>();
+            m_onValueChanged ??= new();
             #if UNITY_EDITOR
                 UnityEventTools.RemovePersistentListener(m_onValueChanged, callback);
             #else

@@ -47,11 +47,12 @@ public class LevelGenerator : MonoBehaviour
     void GenerateTile()
     {
         Vector3 position = new(0f, 0f, m_nextSpawnZ);
-        
+    
         EnvironmentTilePool pool = m_tilePools[UnityEngine.Random.Range(0, m_tilePools.Count)];
         ActiveTile newTile = pool.Get();
         newTile.Tile.transform.position = position;
-        
+        newTile.Tile.SetActive(true);
+    
         m_activeTiles.AddLast(newTile);
         m_nextSpawnZ += m_tileSize.z;
     }
@@ -113,9 +114,10 @@ public class EnvironmentTilePool : IObjectPool<ActiveTile>
             createFunc: () =>
             {
                 GameObject obj = Object.Instantiate(m_tilePrefab.gameObject);
+                obj.SetActive(false); // Start inactive
                 return new(obj, this);
             },
-            actionOnGet: activeTile => activeTile.Tile.SetActive(true),
+            actionOnGet: activeTile => { }, // Don't activate here
             actionOnRelease: activeTile => activeTile.Tile.SetActive(false),
             actionOnDestroy: activeTile => Object.Destroy(activeTile.Tile),
             defaultCapacity: 10,

@@ -6,8 +6,7 @@ namespace ShaderGraph.Helpers
     [AddComponentMenu("UI/Effects/Normalized Position As UV0.ZW", 82)]
     public class NormalizedPositionAsUV0ZW : BaseMeshEffect
     {
-        protected NormalizedPositionAsUV0ZW()
-        { }
+        protected NormalizedPositionAsUV0ZW() { }
         public override void ModifyMesh(VertexHelper vh)
         {
             Bounds bounds = new();
