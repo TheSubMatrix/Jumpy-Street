@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using MatrixUtils.Attributes;
 
 [RequireComponent(typeof(Rigidbody))]
-public class MovingPlatform : MonoBehaviour
+public class MovingObstacle : MonoBehaviour
 {
     [SerializeField] List<Vector3> m_waypoints;
     [SerializeField] float m_moveSpeed = 2f;

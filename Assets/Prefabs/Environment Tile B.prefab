@@ -183,6 +183,7 @@ Transform:
   - {fileID: 3039895252557224308}
   - {fileID: 2533105955278544011}
   - {fileID: 2224373466890308902}
+  - {fileID: 1859195343258731750}
   - {fileID: 5121167934498034314}
   - {fileID: 6638166417304426826}
   - {fileID: 4668044003953115134}
@@ -201,6 +202,7 @@ Transform:
   - {fileID: 5261607908399162634}
   - {fileID: 3126534889670152755}
   - {fileID: 1627521783507351398}
+  - {fileID: 5453923960642605138}
   - {fileID: 7490155284306500458}
   - {fileID: 7606294353491672939}
   - {fileID: 5794456778466310703}
@@ -208,17 +210,711 @@ Transform:
   - {fileID: 2779542921579989902}
   - {fileID: 2753244444550588676}
   - {fileID: 8296148715973776253}
+  - {fileID: 6844686587253832055}
   - {fileID: 7605849605332926997}
+  - {fileID: 5594879352509319170}
   - {fileID: 2680103831269173491}
+  - {fileID: 5808164125362735485}
   - {fileID: 1567670501347505999}
+  - {fileID: 9068212373908080311}
   - {fileID: 8436055023106237874}
+  - {fileID: 8497754590719880192}
   - {fileID: 8312913410393913747}
+  - {fileID: 3643376495108996194}
   - {fileID: 1869440598815760803}
+  - {fileID: 2547294931844902376}
   - {fileID: 9073751144626653011}
+  - {fileID: 6189406973481679086}
   - {fileID: 5626626230299112941}
+  - {fileID: 2501421073998061102}
   - {fileID: 5957866429503628577}
+  - {fileID: 4467512872261731345}
+  - {fileID: 3143569622080478377}
+  - {fileID: 7792183983817614187}
+  - {fileID: 7345344549441780392}
+  - {fileID: 6614770596228367533}
+  - {fileID: 7884531963898426095}
+  - {fileID: 6608118364057306818}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1198458594270999388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6608118364057306818}
+  - component: {fileID: 1539584814131193439}
+  - component: {fileID: 5092568867225868134}
+  - component: {fileID: 5598679774317413536}
+  m_Layer: 0
+  m_Name: Plane (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6608118364057306818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198458594270999388}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0.7071068, z: 0.0000020191073, w: 0.0000020191073}
+  m_LocalPosition: {x: -17.500046, y: 2.5, z: 9.999999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5845410536994154558}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 90}
+--- !u!33 &1539584814131193439
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198458594270999388}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5092568867225868134
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198458594270999388}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 241112df195628a43bc04a2b1d0b6b4d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5598679774317413536
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198458594270999388}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1967886088966026900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7792183983817614187}
+  - component: {fileID: 787737938302888100}
+  - component: {fileID: 4846008691706571906}
+  - component: {fileID: 2984549882865249423}
+  m_Layer: 0
+  m_Name: Plane (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7792183983817614187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967886088966026900}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0.7071068, z: 0.0000020191073, w: 0.0000020191073}
+  m_LocalPosition: {x: -17.499954, y: 2.5, z: -10.000001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5845410536994154558}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 90}
+--- !u!33 &787737938302888100
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967886088966026900}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &4846008691706571906
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967886088966026900}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 241112df195628a43bc04a2b1d0b6b4d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2984549882865249423
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967886088966026900}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2538319649420720695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3143569622080478377}
+  - component: {fileID: 1614343047124914315}
+  - component: {fileID: 1699505993754110077}
+  - component: {fileID: 5184977671100655877}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3143569622080478377
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538319649420720695}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 17.5, y: 2.5, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5845410536994154558}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &1614343047124914315
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538319649420720695}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1699505993754110077
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538319649420720695}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 241112df195628a43bc04a2b1d0b6b4d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5184977671100655877
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538319649420720695}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &3855246738732875026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7345344549441780392}
+  - component: {fileID: 9211636224999650258}
+  - component: {fileID: 5040609600389063893}
+  - component: {fileID: 7454692304293936120}
+  m_Layer: 0
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7345344549441780392
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3855246738732875026}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 17.5, y: 6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5845410536994154558}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &9211636224999650258
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3855246738732875026}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5040609600389063893
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3855246738732875026}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 241112df195628a43bc04a2b1d0b6b4d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7454692304293936120
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3855246738732875026}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &4962474170050095080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7884531963898426095}
+  - component: {fileID: 2734906065699338658}
+  - component: {fileID: 3038941494716925200}
+  - component: {fileID: 4218620456254881518}
+  m_Layer: 0
+  m_Name: Plane (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7884531963898426095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4962474170050095080}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 17.5, y: 2.5, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5845410536994154558}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &2734906065699338658
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4962474170050095080}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &3038941494716925200
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4962474170050095080}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 241112df195628a43bc04a2b1d0b6b4d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4218620456254881518
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4962474170050095080}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &9134665419390860971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6614770596228367533}
+  - component: {fileID: 5924114283881095430}
+  - component: {fileID: 8317647831729277710}
+  - component: {fileID: 4512611658774365798}
+  m_Layer: 0
+  m_Name: Plane (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6614770596228367533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9134665419390860971}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: 0.7071068, z: 0.0000020191073, w: 0.0000020191073}
+  m_LocalPosition: {x: -17.5, y: 6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5845410536994154558}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 90}
+--- !u!33 &5924114283881095430
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9134665419390860971}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8317647831729277710
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9134665419390860971}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 241112df195628a43bc04a2b1d0b6b4d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4512611658774365798
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9134665419390860971}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &37675006989868539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -394,13 +1090,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 140754, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8009613337969203366}
   m_SourcePrefab: {fileID: 100100000, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
 --- !u!4 &142713271627063919 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467220, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
   m_PrefabInstance: {fileID: 142713271627514747}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &142713271627392681 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 140754, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+  m_PrefabInstance: {fileID: 142713271627514747}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8009613337969203366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142713271627392681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &158008547721622436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -518,8 +1235,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3748813009665791536}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+--- !u!1 &190127189009285155 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 190127189009133529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3748813009665791536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190127189009285155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &190127189009544645 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
@@ -576,8 +1314,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3123207993559249847}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+--- !u!1 &208191383796726726 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 208191383796880444}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3123207993559249847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208191383796726726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &208191383796993568 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
@@ -816,13 +1575,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8531510570226826817}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &326940429274313075 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 326940429274393455}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &326940429274547349 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 326940429274393455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8531510570226826817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326940429274547349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &388572262287829051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -932,8 +1712,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 140754, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1607658592571026818}
   m_SourcePrefab: {fileID: 100100000, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+--- !u!1 &528200471917718909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 140754, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+  m_PrefabInstance: {fileID: 528200471917840559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1607658592571026818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528200471917718909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &528200471917914555 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467220, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
@@ -1114,13 +1915,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 196870, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6433534743173474119}
   m_SourcePrefab: {fileID: 100100000, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
 --- !u!4 &817125585127080846 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449776, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
   m_PrefabInstance: {fileID: 817125585127268222}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &817125585127464568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 196870, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
+  m_PrefabInstance: {fileID: 817125585127268222}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6433534743173474119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817125585127464568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &824334979436023915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1176,13 +1998,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173052, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8673157943017765052}
   m_SourcePrefab: {fileID: 100100000, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
 --- !u!4 &824334979435650381 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 412966, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
   m_PrefabInstance: {fileID: 824334979436023915}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &824334979435869079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173052, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
+  m_PrefabInstance: {fileID: 824334979436023915}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8673157943017765052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824334979435869079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &849373085981718246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1316,8 +2159,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Straight_01 (20)
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.500164
+      value: -9.875961
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1730,13 +2577,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5316200174626024429}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &1162732742141597907 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 1162732742141936335}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1162732742141848885 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 1162732742141936335}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5316200174626024429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162732742141848885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &1242413107043528208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1846,13 +2714,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4911228399919142479}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &1415924743104759542 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 1415924743104945386}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1415924743105049360 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 1415924743104945386}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4911228399919142479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415924743105049360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &1423840895700980243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1973,6 +2862,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2591347932217147171}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6610434373607861258}
   m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
 --- !u!1 &1567670501347210363 stripped
 GameObject:
@@ -2033,6 +2925,19 @@ MonoBehaviour:
     - rid: 3198014773403320410
       type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
       data: 
+--- !u!114 &6610434373607861258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567670501347210363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &1567670501347505999 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
@@ -2093,13 +2998,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 140754, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9018527361708693154}
   m_SourcePrefab: {fileID: 100100000, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
 --- !u!4 &1600558401079356546 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467220, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
   m_PrefabInstance: {fileID: 1600558401079545238}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1600558401079683140 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 140754, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+  m_PrefabInstance: {fileID: 1600558401079545238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9018527361708693154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600558401079683140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &1627521783507487134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2113,8 +3039,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Bridge_01
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.501796
+      value: 15.1259985
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2122,7 +3052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4870222
+      value: -2.487022
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2155,13 +3085,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7220508199190498835}
   m_SourcePrefab: {fileID: 100100000, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
 --- !u!4 &1627521783507351398 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
   m_PrefabInstance: {fileID: 1627521783507487134}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1627521783507604770 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+  m_PrefabInstance: {fileID: 1627521783507487134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7220508199190498835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627521783507604770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &1673889627782147433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2295,8 +3246,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Straight_01 (18)
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.500164
+      value: 0.1240387
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2518,6 +3473,72 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 492316, guid: 07f4a007d7093a64bbbdc962a82b494a, type: 3}
   m_PrefabInstance: {fileID: 1839908669027214874}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1859195343258331782
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5845410536994154558}
+    m_Modifications:
+    - target: {fileID: 164350, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_Name
+      value: SM_Env_Minetrack_Straight_01 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.875961
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.1309524
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.4862127
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+--- !u!4 &1859195343258731750 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+  m_PrefabInstance: {fileID: 1859195343258331782}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1869440598815865465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2580,6 +3601,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9157577059063343211}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6341950553927894575}
   m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
 --- !u!4 &1869440598815760803 stripped
 Transform:
@@ -2645,6 +3669,19 @@ MonoBehaviour:
     - rid: 3198014773403320410
       type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
       data: 
+--- !u!114 &6341950553927894575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869440598815990423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &1965844207293446051
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2758,8 +3795,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 584226510835257246}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+--- !u!1 &1973728729945052507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 1973728729944898209}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &584226510835257246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973728729945052507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &1973728729945333949 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
@@ -2994,8 +4052,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 196870, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7353238202349351136}
   m_SourcePrefab: {fileID: 100100000, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
+--- !u!1 &2106603050434803144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 196870, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
+  m_PrefabInstance: {fileID: 2106603050434606286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7353238202349351136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106603050434803144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &2106603050434979902 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449776, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
@@ -3192,8 +4271,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Straight_01 (14)
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.499836
+      value: 20.124039
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3354,13 +4437,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6196958333158753486}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &2250513723604333733 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 2250513723604414137}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2250513723604566339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 2250513723604414137}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6196958333158753486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2250513723604566339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &2281099349876593489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3480,6 +4584,149 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 492316, guid: 07f4a007d7093a64bbbdc962a82b494a, type: 3}
   m_PrefabInstance: {fileID: 2470298297786530701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2501421073997956596
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5845410536994154558}
+    m_Modifications:
+    - target: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Minecart_01 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.24356079
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9205666886365998789}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3149542286073715502}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6449942648687565977}
+  m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+--- !u!1 &2501421073997831450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 2501421073997956596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &9205666886365998789
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2501421073997831450}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3149542286073715502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2501421073997831450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0918b4b8a39ad764a9fd7f3a8a162fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::MovingPlatform
+  m_waypoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: 38, y: 0, z: 0}
+  - {x: 38, y: -5, z: 0}
+  - {x: -2, y: -5, z: 0}
+  - {x: -2, y: 0, z: 0}
+  m_moveSpeed: 2
+  m_navigator:
+    rid: 3198014773403320410
+  references:
+    version: 2
+    RefIds:
+    - rid: 3198014773403320410
+      type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
+      data: 
+--- !u!114 &6449942648687565977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2501421073997831450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
+--- !u!4 &2501421073998061102 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 2501421073997956596}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2526269403548350219
 PrefabInstance:
@@ -3601,6 +4848,149 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
   m_PrefabInstance: {fileID: 2533105955278402283}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2547294931844806194
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5845410536994154558}
+    m_Modifications:
+    - target: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Minecart_01 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5470802467486525710}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3851821168753845664}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6894923270338848716}
+  m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+--- !u!1 &2547294931844673244 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 2547294931844806194}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &5470802467486525710
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2547294931844673244}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3851821168753845664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2547294931844673244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0918b4b8a39ad764a9fd7f3a8a162fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::MovingPlatform
+  m_waypoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: -11, y: 0, z: 0}
+  - {x: -11, y: 5, z: 0}
+  - {x: 29, y: 5, z: 0}
+  - {x: 29, y: 0, z: 0}
+  m_moveSpeed: 2
+  m_navigator:
+    rid: 3198014773403320410
+  references:
+    version: 2
+    RefIds:
+    - rid: 3198014773403320410
+      type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
+      data: 
+--- !u!114 &6894923270338848716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2547294931844673244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
+--- !u!4 &2547294931844902376 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 2547294931844806194}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2563665339685856515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3656,13 +5046,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7796385627159344707}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &2563665339685682975 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 2563665339685856515}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2563665339685948153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 2563665339685856515}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7796385627159344707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2563665339685948153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &2576924514270800618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3718,8 +5129,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7754807841031130137}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+--- !u!1 &2576924514270692624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 2576924514270800618}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7754807841031130137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2576924514270692624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &2576924514270949622 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
@@ -3780,13 +5212,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9174457869402805913}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &2579805253436306012 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 2579805253436647488}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2579805253436540858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 2579805253436647488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9174457869402805913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2579805253436540858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &2680103831268881193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3849,6 +5302,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2619440282922717306}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6863517127493647454}
   m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
 --- !u!1 &2680103831269010375 stripped
 GameObject:
@@ -3909,6 +5365,19 @@ MonoBehaviour:
     - rid: 3198014773403320410
       type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
       data: 
+--- !u!114 &6863517127493647454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2680103831269010375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &2680103831269173491 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
@@ -3927,8 +5396,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Straight_01 (19)
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.500164
+      value: -4.8759613
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3989,8 +5462,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Bridge_01 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.498203
+      value: -14.874001
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3998,7 +5475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4870222
+      value: -2.487022
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4031,13 +5508,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7897765726005628013}
   m_SourcePrefab: {fileID: 100100000, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
 --- !u!4 &2753244444550588676 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
   m_PrefabInstance: {fileID: 2753244444550993916}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2753244444550843200 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+  m_PrefabInstance: {fileID: 2753244444550993916}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7897765726005628013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2753244444550843200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &2779542921580180854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4051,8 +5549,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Bridge_01 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.498204
+      value: -9.8740015
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4060,7 +5562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4870222
+      value: -2.487022
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4093,13 +5595,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 167748818110280728}
   m_SourcePrefab: {fileID: 100100000, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
 --- !u!4 &2779542921579989902 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
   m_PrefabInstance: {fileID: 2779542921580180854}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2779542921580259786 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+  m_PrefabInstance: {fileID: 2779542921580180854}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &167748818110280728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2779542921580259786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &2832709756644754425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4155,8 +5678,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8277203989942642481}
   m_SourcePrefab: {fileID: 100100000, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+--- !u!1 &2832709756644901461 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+  m_PrefabInstance: {fileID: 2832709756644754425}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8277203989942642481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2832709756644901461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &2832709756645223095 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469326, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
@@ -4523,13 +6067,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7555591033690816629}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &3180325295919544167 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 3180325295919983995}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3180325295919809153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 3180325295919983995}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7555591033690816629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3180325295919809153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &3191888839962360478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4647,13 +6212,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8657827882921032559}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &3203980964604316508 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 3203980964604432704}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3203980964604608186 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 3203980964604432704}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8657827882921032559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3203980964604608186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &3219687910015317621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4705,13 +6291,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9072243734132959336}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &3219687910015233129 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 3219687910015317621}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3219687910015474063 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 3219687910015317621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9072243734132959336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3219687910015474063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &3286877949054365880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5019,13 +6626,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173052, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4380878807944654765}
   m_SourcePrefab: {fileID: 100100000, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
 --- !u!4 &3582206466889845494 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 412966, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
   m_PrefabInstance: {fileID: 3582206466889992144}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3582206466890097708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173052, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
+  m_PrefabInstance: {fileID: 3582206466889992144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4380878807944654765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3582206466890097708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &3587400922441211853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5084,6 +6712,149 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 429762, guid: 5409c9ff5a9c7b045a9809d71ccdcab8, type: 3}
   m_PrefabInstance: {fileID: 3587400922441211853}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3643376495109154744
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5845410536994154558}
+    m_Modifications:
+    - target: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Minecart_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1627540391871027737}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5839873128840203597}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6239078591460549237}
+  m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+--- !u!4 &3643376495108996194 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 3643376495109154744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3643376495109291862 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 3643376495109154744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1627540391871027737
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3643376495109291862}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &5839873128840203597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3643376495109291862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0918b4b8a39ad764a9fd7f3a8a162fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::MovingPlatform
+  m_waypoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: -20, y: 0, z: 0}
+  - {x: -20, y: 5, z: 0}
+  - {x: 20, y: 5, z: 0}
+  - {x: 20, y: 0, z: 0}
+  m_moveSpeed: 2
+  m_navigator:
+    rid: 3198014773403320410
+  references:
+    version: 2
+    RefIds:
+    - rid: 3198014773403320410
+      type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
+      data: 
+--- !u!114 &6239078591460549237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3643376495109291862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &3673816437264427437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5197,13 +6968,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5995294930307204082}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &3683543820357836919 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 3683543820357958251}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3683543820358112657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 3683543820357958251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5995294930307204082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3683543820358112657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &3760787224421387311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5809,8 +7601,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173052, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 363665596907139633}
   m_SourcePrefab: {fileID: 100100000, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
+--- !u!1 &4364324451261166518 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173052, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
+  m_PrefabInstance: {fileID: 4364324451261321290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &363665596907139633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4364324451261166518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &4364324451261472108 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 412966, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
@@ -5873,6 +7686,149 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 492316, guid: 07f4a007d7093a64bbbdc962a82b494a, type: 3}
   m_PrefabInstance: {fileID: 4428166613907359985}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4467512872261574603
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5845410536994154558}
+    m_Modifications:
+    - target: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Minecart_01 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7818108547220144455}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8874621110228511177}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6320789466571988367}
+  m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+--- !u!1 &4467512872261437221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 4467512872261574603}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &7818108547220144455
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4467512872261437221}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8874621110228511177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4467512872261437221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0918b4b8a39ad764a9fd7f3a8a162fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::MovingPlatform
+  m_waypoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: 29, y: 0, z: 0}
+  - {x: 29, y: -5, z: 0}
+  - {x: -11, y: -5, z: 0}
+  - {x: -11, y: 0, z: 0}
+  m_moveSpeed: 2
+  m_navigator:
+    rid: 3198014773403320410
+  references:
+    version: 2
+    RefIds:
+    - rid: 3198014773403320410
+      type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
+      data: 
+--- !u!114 &6320789466571988367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4467512872261437221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
+--- !u!4 &4467512872261731345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 4467512872261574603}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4496483580235415396
 PrefabInstance:
@@ -6007,8 +7963,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Straight_01 (17)
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.499836
+      value: 5.1240387
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6313,8 +8273,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Bridge_01 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.498204
+      value: -4.8740015
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6322,7 +8286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4870222
+      value: -2.487022
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6355,13 +8319,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5993883078440058118}
   m_SourcePrefab: {fileID: 100100000, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
 --- !u!4 &4909924474333419005 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
   m_PrefabInstance: {fileID: 4909924474333506309}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4909924474333689785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+  m_PrefabInstance: {fileID: 4909924474333506309}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5993883078440058118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4909924474333689785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &4940741986174568019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6533,13 +8518,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6464290909861605669}
   m_SourcePrefab: {fileID: 100100000, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
 --- !u!4 &5111190343211769171 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469326, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
   m_PrefabInstance: {fileID: 5111190343211840541}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5111190343211955633 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+  m_PrefabInstance: {fileID: 5111190343211840541}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6464290909861605669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5111190343211955633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &5113957452328463045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6611,8 +8617,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Straight_01 (15)
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.499836
+      value: 15.124039
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6715,13 +8725,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8202782189298617387}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &5197984867852238682 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 5197984867852674374}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5197984867852503740 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 5197984867852674374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8202782189298617387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5197984867852503740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &5259287469894317992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7144,6 +9175,93 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 492316, guid: 07f4a007d7093a64bbbdc962a82b494a, type: 3}
   m_PrefabInstance: {fileID: 5445089872506502809}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5453923960643055274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5845410536994154558}
+    m_Modifications:
+    - target: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_Name
+      value: SM_Env_Minetrack_Bridge_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.874
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.132286
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.487022
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2834957235542905512}
+  m_SourcePrefab: {fileID: 100100000, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+--- !u!4 &5453923960642605138 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+  m_PrefabInstance: {fileID: 5453923960643055274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5453923960642875926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+  m_PrefabInstance: {fileID: 5453923960643055274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2834957235542905512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5453923960642875926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &5470213272331311019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7199,13 +9317,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4419977485155143982}
   m_SourcePrefab: {fileID: 100100000, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
 --- !u!4 &5470213272330862309 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469326, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
   m_PrefabInstance: {fileID: 5470213272331311019}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5470213272331163143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+  m_PrefabInstance: {fileID: 5470213272331311019}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4419977485155143982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5470213272331163143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &5592061451357944212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7263,6 +9402,149 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 463042, guid: 0e2d311aa2f76c2479ed7bbf11aa4ffb, type: 3}
   m_PrefabInstance: {fileID: 5592061451357944212}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5594879352509289432
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5845410536994154558}
+    m_Modifications:
+    - target: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Minecart_01 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5965272852532588083}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7748150347859426814}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 857907952317238277}
+  m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+--- !u!1 &5594879352509156150 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 5594879352509289432}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &5965272852532588083
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5594879352509156150}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &7748150347859426814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5594879352509156150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0918b4b8a39ad764a9fd7f3a8a162fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::MovingPlatform
+  m_waypoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: 11, y: 0, z: 0}
+  - {x: 11, y: -5, z: 0}
+  - {x: -29, y: -5, z: 0}
+  - {x: -29, y: 0, z: 0}
+  m_moveSpeed: 2
+  m_navigator:
+    rid: 3198014773403320410
+  references:
+    version: 2
+    RefIds:
+    - rid: 3198014773403320410
+      type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
+      data: 
+--- !u!114 &857907952317238277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5594879352509156150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
+--- !u!4 &5594879352509319170 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 5594879352509289432}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5626626230298619447
 PrefabInstance:
@@ -7326,6 +9608,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2264925144312256557}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1407921617195342496}
   m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
 --- !u!1 &5626626230298752729 stripped
 GameObject:
@@ -7386,6 +9671,19 @@ MonoBehaviour:
     - rid: 3198014773403320410
       type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
       data: 
+--- !u!114 &1407921617195342496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5626626230298752729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &5626626230299112941 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
@@ -7562,13 +9860,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 140754, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7562487189290692147}
   m_SourcePrefab: {fileID: 100100000, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
 --- !u!4 &5733468038659016393 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467220, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
   m_PrefabInstance: {fileID: 5733468038659090397}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5733468038659211791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 140754, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+  m_PrefabInstance: {fileID: 5733468038659090397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7562487189290692147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5733468038659211791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &5794456778465887447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7582,8 +9901,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Bridge_01 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.4982042
+      value: 0.1259985
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7591,7 +9914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4870222
+      value: -2.487022
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7624,8 +9947,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8294022490578472198}
   m_SourcePrefab: {fileID: 100100000, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+--- !u!1 &5794456778466039915 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+  m_PrefabInstance: {fileID: 5794456778465887447}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8294022490578472198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5794456778466039915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &5794456778466310703 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
@@ -7686,13 +10030,177 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2448338681629491993}
   m_SourcePrefab: {fileID: 100100000, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+--- !u!1 &5803956986766816553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+  m_PrefabInstance: {fileID: 5803956986766931077}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2448338681629491993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5803956986766816553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &5803956986766990795 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469326, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
   m_PrefabInstance: {fileID: 5803956986766931077}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5808164125363032743
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5845410536994154558}
+    m_Modifications:
+    - target: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Minecart_01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7434675230107357613}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1916001033805794746}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8956268451766719529}
+  m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+--- !u!4 &5808164125362735485 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 5808164125363032743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5808164125362899529 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 5808164125363032743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &7434675230107357613
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5808164125362899529}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1916001033805794746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5808164125362899529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0918b4b8a39ad764a9fd7f3a8a162fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::MovingPlatform
+  m_waypoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: 2, y: 0, z: 0}
+  - {x: 2, y: -5, z: 0}
+  - {x: -38, y: -5, z: 0}
+  - {x: -38, y: 0, z: 0}
+  m_moveSpeed: 2
+  m_navigator:
+    rid: 3198014773403320410
+  references:
+    version: 2
+    RefIds:
+    - rid: 3198014773403320410
+      type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
+      data: 
+--- !u!114 &8956268451766719529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5808164125362899529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &5957866429503930107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7755,6 +10263,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8956515140164047406}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4719305391227850749}
   m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
 --- !u!4 &5957866429503628577 stripped
 Transform:
@@ -7820,6 +10331,19 @@ MonoBehaviour:
     - rid: 3198014773403320410
       type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
       data: 
+--- !u!114 &4719305391227850749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5957866429503792661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &5980037917061884521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8060,6 +10584,149 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 492316, guid: 07f4a007d7093a64bbbdc962a82b494a, type: 3}
   m_PrefabInstance: {fileID: 6157569171976001607}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6189406973481771828
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5845410536994154558}
+    m_Modifications:
+    - target: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Minecart_01 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7794316554068036508}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 189399087739738024}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4242241442018223153}
+  m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+--- !u!4 &6189406973481679086 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 6189406973481771828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6189406973481909210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 6189406973481771828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &7794316554068036508
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6189406973481909210}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &189399087739738024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6189406973481909210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0918b4b8a39ad764a9fd7f3a8a162fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::MovingPlatform
+  m_waypoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: -2, y: 0, z: 0}
+  - {x: -2, y: 5, z: 0}
+  - {x: 38, y: 5, z: 0}
+  - {x: 38, y: 0, z: 0}
+  m_moveSpeed: 2
+  m_navigator:
+    rid: 3198014773403320410
+  references:
+    version: 2
+    RefIds:
+    - rid: 3198014773403320410
+      type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
+      data: 
+--- !u!114 &4242241442018223153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6189406973481909210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &6230560021812603221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8417,13 +11084,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2421523518914187636}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &6611762726294339563 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 6611762726294775287}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6611762726294604301 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 6611762726294775287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2421523518914187636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6611762726294604301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &6638166417304581930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8437,8 +11125,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Straight_01 (16)
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.499836
+      value: 10.124039
       objectReference: {fileID: 0}
     - target: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8537,8 +11229,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 140754, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5025330226489655819}
   m_SourcePrefab: {fileID: 100100000, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+--- !u!1 &6642953027563289620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 140754, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+  m_PrefabInstance: {fileID: 6642953027563149766}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5025330226489655819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6642953027563289620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &6642953027563485394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467220, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
@@ -8599,13 +11312,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6574888844089882084}
   m_SourcePrefab: {fileID: 100100000, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
 --- !u!4 &6665869006149286060 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469326, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
   m_PrefabInstance: {fileID: 6665869006149734882}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6665869006149587022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+  m_PrefabInstance: {fileID: 6665869006149734882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6574888844089882084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6665869006149587022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &6667802911887598040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8657,8 +11391,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4715480126228230479}
   m_SourcePrefab: {fileID: 100100000, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+--- !u!1 &6667802911887745140 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+  m_PrefabInstance: {fileID: 6667802911887598040}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4715480126228230479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6667802911887745140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &6667802911888050326 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469326, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
@@ -8783,6 +11538,149 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 492316, guid: 07f4a007d7093a64bbbdc962a82b494a, type: 3}
   m_PrefabInstance: {fileID: 6824468043336645419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6844686587253662381
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5845410536994154558}
+    m_Modifications:
+    - target: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Minecart_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 613140021662620834}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2282086494367336926}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4692534959849376930}
+  m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+--- !u!1 &6844686587253537347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 6844686587253662381}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &613140021662620834
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6844686587253537347}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &2282086494367336926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6844686587253537347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0918b4b8a39ad764a9fd7f3a8a162fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::MovingPlatform
+  m_waypoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: 20, y: 0, z: 0}
+  - {x: 20, y: -5, z: 0}
+  - {x: -20, y: -5, z: 0}
+  - {x: -20, y: 0, z: 0}
+  m_moveSpeed: 2
+  m_navigator:
+    rid: 3198014773403320410
+  references:
+    version: 2
+    RefIds:
+    - rid: 3198014773403320410
+      type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
+      data: 
+--- !u!114 &4692534959849376930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6844686587253537347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
+--- !u!4 &6844686587253832055 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 6844686587253662381}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6851881751971177918
 PrefabInstance:
@@ -9207,8 +12105,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173052, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5048071869369409715}
   m_SourcePrefab: {fileID: 100100000, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
+--- !u!1 &7135882637400967909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173052, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
+  m_PrefabInstance: {fileID: 7135882637401073945}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5048071869369409715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7135882637400967909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &7135882637401220159 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 412966, guid: f18318a9de51f9b4f993559b01c40e15, type: 3}
@@ -9451,13 +12370,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2264797748878632165}
   m_SourcePrefab: {fileID: 100100000, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
 --- !u!4 &7252386901892142854 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469326, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
   m_PrefabInstance: {fileID: 7252386901892349512}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7252386901892497380 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+  m_PrefabInstance: {fileID: 7252386901892349512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2264797748878632165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7252386901892497380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &7317552855126450117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9633,13 +12573,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4501031928779675682}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &7381531168288268991 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 7381531168288356515}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7381531168288511833 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 7381531168288356515}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4501031928779675682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7381531168288511833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &7490155284306617746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9653,8 +12614,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Bridge_01 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.501796
+      value: 10.1259985
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9662,7 +12627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4870222
+      value: -2.487022
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9695,13 +12660,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6694982324952480501}
   m_SourcePrefab: {fileID: 100100000, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
 --- !u!4 &7490155284306500458 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
   m_PrefabInstance: {fileID: 7490155284306617746}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7490155284306770222 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+  m_PrefabInstance: {fileID: 7490155284306617746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6694982324952480501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7490155284306770222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &7595919222171789959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9826,6 +12812,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5879120117678707287}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2490472937912405944}
   m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
 --- !u!4 &7605849605332926997 stripped
 Transform:
@@ -9891,6 +12880,19 @@ MonoBehaviour:
     - rid: 3198014773403320410
       type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
       data: 
+--- !u!114 &2490472937912405944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7605849605333287201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &7606294353491313043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9904,8 +12906,12 @@ PrefabInstance:
       value: SM_Env_Minetrack_Bridge_01 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.5017958
+      value: 5.1259985
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9913,7 +12919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4870222
+      value: -2.487022
       objectReference: {fileID: 0}
     - target: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9946,8 +12952,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4581079956480764165}
   m_SourcePrefab: {fileID: 100100000, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+--- !u!1 &7606294353491402031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 187580, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
+  m_PrefabInstance: {fileID: 7606294353491313043}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4581079956480764165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7606294353491402031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &7606294353491672939 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 458488, guid: b0fdd261cab4d884ea4d14190dfc171a, type: 3}
@@ -10124,8 +13151,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 196870, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5770277673385646074}
   m_SourcePrefab: {fileID: 100100000, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
+--- !u!1 &7866688552786628554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 196870, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
+  m_PrefabInstance: {fileID: 7866688552786562764}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5770277673385646074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7866688552786628554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &7866688552786940476 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449776, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
@@ -10186,8 +13234,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3543268937278336972}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+--- !u!1 &7990683151504046245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 7990683151504136031}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3543268937278336972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7990683151504046245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &7990683151504280899 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
@@ -10445,6 +13514,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7749422337275626241}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6243533648102288307}
   m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
 --- !u!1 &8296148715973611593 stripped
 GameObject:
@@ -10505,6 +13577,19 @@ MonoBehaviour:
     - rid: 3198014773403320410
       type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
       data: 
+--- !u!114 &6243533648102288307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296148715973611593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &8296148715973776253 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
@@ -10572,6 +13657,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1598550948002775772}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7437434344292908593}
   m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
 --- !u!1 &8312913410393750183 stripped
 GameObject:
@@ -10632,6 +13720,19 @@ MonoBehaviour:
     - rid: 3198014773403320410
       type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
       data: 
+--- !u!114 &7437434344292908593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8312913410393750183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &8312913410393913747 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
@@ -10692,13 +13793,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 140754, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 835620456405588436}
   m_SourcePrefab: {fileID: 100100000, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
 --- !u!4 &8352292426869232269 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 467220, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
   m_PrefabInstance: {fileID: 8352292426869568409}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8352292426869429835 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 140754, guid: e73dff4b52d607f4ca11b85eca8f146b, type: 3}
+  m_PrefabInstance: {fileID: 8352292426869568409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &835620456405588436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8352292426869429835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &8362606964720788889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10754,8 +13876,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 196870, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5259874593042341542}
   m_SourcePrefab: {fileID: 100100000, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
+--- !u!1 &8362606964720592031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 196870, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
+  m_PrefabInstance: {fileID: 8362606964720788889}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5259874593042341542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8362606964720592031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &8362606964720875881 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449776, guid: d3ce5fe83b1090246a3572735e3dd832, type: 3}
@@ -10823,6 +13966,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4441192993724809725}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6237946101357332461}
   m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
 --- !u!1 &8436055023105877638 stripped
 GameObject:
@@ -10883,6 +14029,19 @@ MonoBehaviour:
     - rid: 3198014773403320410
       type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
       data: 
+--- !u!114 &6237946101357332461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8436055023105877638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &8436055023106237874 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
@@ -10939,13 +14098,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3116517503212688311}
   m_SourcePrefab: {fileID: 100100000, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
 --- !u!4 &8478694156886739595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469326, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
   m_PrefabInstance: {fileID: 8478694156886942661}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8478694156887089769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+  m_PrefabInstance: {fileID: 8478694156886942661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3116517503212688311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8478694156887089769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &8485826260606524896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11007,6 +14187,149 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 482504, guid: b55c5c89af6466b4eac975ed5d76d2cb, type: 3}
   m_PrefabInstance: {fileID: 8485826260606524896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8497754590719653850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5845410536994154558}
+    m_Modifications:
+    - target: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Minecart_01 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5989416548292149409}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6032325428254123696}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1650732422734256080}
+  m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+--- !u!1 &8497754590719520564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 8497754590719653850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &5989416548292149409
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8497754590719520564}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6032325428254123696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8497754590719520564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0918b4b8a39ad764a9fd7f3a8a162fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::MovingPlatform
+  m_waypoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: -29, y: 0, z: 0}
+  - {x: -29, y: 5, z: 0}
+  - {x: 11, y: 5, z: 0}
+  - {x: 11, y: 0, z: 0}
+  m_moveSpeed: 2
+  m_navigator:
+    rid: 3198014773403320410
+  references:
+    version: 2
+    RefIds:
+    - rid: 3198014773403320410
+      type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
+      data: 
+--- !u!114 &1650732422734256080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8497754590719520564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
+--- !u!4 &8497754590719880192 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 8497754590719653850}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8511387944119348087
 PrefabInstance:
@@ -11419,8 +14742,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7372201149917740215}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+--- !u!1 &8816787409934543281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 8816787409934632523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7372201149917740215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8816787409934543281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &8816787409934785623 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
@@ -11535,13 +14879,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3277482897494076082}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &8900447847685625377 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 8900447847686065213}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8900447847685907399 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 8900447847686065213}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3277482897494076082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8900447847685907399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &8905021176470437969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11655,13 +15020,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6813331313491070057}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &8928918419046887871 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 8928918419047033763}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8928918419047122009 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 8928918419047033763}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6813331313491070057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8928918419047122009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &8939045368083691442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11713,8 +15099,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6282290759560131248}
   m_SourcePrefab: {fileID: 100100000, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+--- !u!1 &8939045368083576350 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+  m_PrefabInstance: {fileID: 8939045368083691442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6282290759560131248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8939045368083576350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &8939045368083881724 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469326, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
@@ -11891,13 +15298,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7376544043426461454}
   m_SourcePrefab: {fileID: 100100000, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
 --- !u!4 &8997168199993385842 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449052, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
   m_PrefabInstance: {fileID: 8997168199993473390}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8997168199993628308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176122, guid: 939f27c57ef13654eafcf37ff873a454, type: 3}
+  m_PrefabInstance: {fileID: 8997168199993473390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7376544043426461454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8997168199993628308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &9008540918017213881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12022,6 +15450,149 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 421472, guid: f7dc92b7dff7d2c419e6070d90115e42, type: 3}
   m_PrefabInstance: {fileID: 9058239006319144163}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9068212373907594605
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5845410536994154558}
+    m_Modifications:
+    - target: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Minecart_01 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710784
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70710576
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9089396797268983577}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2256576620435624229}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2580436663596817582}
+  m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+--- !u!1 &9068212373907719555 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 9068212373907594605}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &9089396797268983577
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9068212373907719555}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &2256576620435624229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9068212373907719555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0918b4b8a39ad764a9fd7f3a8a162fb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::MovingPlatform
+  m_waypoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: -38, y: 0, z: 0}
+  - {x: -38, y: 5, z: 0}
+  - {x: 2, y: 5, z: 0}
+  - {x: 2, y: 0, z: 0}
+  m_moveSpeed: 2
+  m_navigator:
+    rid: 3198014773403320410
+  references:
+    version: 2
+    RefIds:
+    - rid: 3198014773403320410
+      type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
+      data: 
+--- !u!114 &2580436663596817582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9068212373907719555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
+--- !u!4 &9068212373908080311 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+  m_PrefabInstance: {fileID: 9068212373907594605}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9073751144626625673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12084,6 +15655,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1314966939418975015}
+    - targetCorrespondingSourceObject: {fileID: 137454, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2452065597389316396}
   m_SourcePrefab: {fileID: 100100000, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
 --- !u!1 &9073751144626488423 stripped
 GameObject:
@@ -12144,6 +15718,19 @@ MonoBehaviour:
     - rid: 3198014773403320410
       type: {class: LoopNavigator, ns: , asm: JumpyStreet.Obstacles}
       data: 
+--- !u!114 &2452065597389316396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073751144626488423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!4 &9073751144626653011 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 498650, guid: 5c00c5f03c23f3b44af6d75077362432, type: 3}
@@ -12200,13 +15787,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5019810707149744494}
   m_SourcePrefab: {fileID: 100100000, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
 --- !u!4 &9107992776874374847 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469326, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
   m_PrefabInstance: {fileID: 9107992776874434545}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9107992776874581597 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147884, guid: 68c36969be1a05e4ba39680b7d1b04b8, type: 3}
+  m_PrefabInstance: {fileID: 9107992776874434545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5019810707149744494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9107992776874581597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb3a5ed9cb7526c429a10fd450b71b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: JumpyStreet.Obstacles::CollisionDamager
+  m_damage: 1
 --- !u!1001 &9155166870622788389
 PrefabInstance:
   m_ObjectHideFlags: 0

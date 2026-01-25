@@ -29,7 +29,12 @@ public class LevelGenerator : MonoBehaviour
         
         for (int i = 0; i < m_tilesAhead + m_tilesBehind; i++)
         {
-            GenerateTile();
+            if (i == m_tilesBehind)
+            {
+                GenerateSpawnTile();
+                continue;
+            }
+            GenerateRandomTile();
         }
         
         m_cleanupThreshold = -m_tilesBehind * m_tileSize.z;
@@ -39,24 +44,30 @@ public class LevelGenerator : MonoBehaviour
     {
         while (m_nextSpawnZ < playerPosition.z + m_tilesAhead * m_tileSize.z)
         {
-            GenerateTile();
+            GenerateRandomTile();
         }
         CleanupOldTiles(playerPosition);
     }
 
-    void GenerateTile()
+    void GenerateRandomTile()
+    {
+        SpawnSelectedTile(UnityEngine.Random.Range(0, m_tilePools.Count));
+    }
+    void GenerateSpawnTile()
+    {
+        SpawnSelectedTile(0);
+    }
+
+    void SpawnSelectedTile(int index)
     {
         Vector3 position = new(0f, 0f, m_nextSpawnZ);
-    
-        EnvironmentTilePool pool = m_tilePools[UnityEngine.Random.Range(0, m_tilePools.Count)];
+        EnvironmentTilePool pool = m_tilePools[index];
         ActiveTile newTile = pool.Get();
         newTile.Tile.transform.position = position;
         newTile.Tile.SetActive(true);
-    
         m_activeTiles.AddLast(newTile);
         m_nextSpawnZ += m_tileSize.z;
     }
-
     void CleanupOldTiles(Vector3 playerPosition)
     {
         float cleanupZ = playerPosition.z + m_cleanupThreshold;
@@ -114,10 +125,9 @@ public class EnvironmentTilePool : IObjectPool<ActiveTile>
             createFunc: () =>
             {
                 GameObject obj = Object.Instantiate(m_tilePrefab.gameObject);
-                obj.SetActive(false); // Start inactive
+                obj.SetActive(false);
                 return new(obj, this);
             },
-            actionOnGet: activeTile => { }, // Don't activate here
             actionOnRelease: activeTile => activeTile.Tile.SetActive(false),
             actionOnDestroy: activeTile => Object.Destroy(activeTile.Tile),
             defaultCapacity: 10,
