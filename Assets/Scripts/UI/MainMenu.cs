@@ -47,7 +47,7 @@ public class MainMenu : MonoBehaviour
 
     public void OnPlayButtonPressed()
     {
-        m_sceneTransitioner.RequestTransitionTo("SampleScene");
+        m_sceneTransitioner.RequestTransitionTo("Gameplay");
     }
     public void OnInstructionButtonPressed()
     {

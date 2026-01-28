@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿#if UNITY_EDITOR
+using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
@@ -56,3 +57,4 @@ public class SerializableQueueDrawer : PropertyDrawer
         };
     }
 }
+#endif

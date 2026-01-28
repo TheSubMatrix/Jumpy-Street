@@ -27,6 +27,13 @@ public class SceneTransitioner : PersistentService<ISceneTransitioner>, ISceneTr
         StartCoroutine(TransitionSceneAsync(sceneName, transitionTime));
     }
 
+    public void RequestQuit()
+    {
+        if(IsTransitioning) return;
+        IsTransitioning = true;
+        StartCoroutine(QuitTransitionAsync());
+    }
+
     IEnumerator TransitionSceneAsync(string sceneName, float transitionTime = 1f)
     {
         yield return FadeCanvasGroupAsync(m_screenFadeGroup, 1, transitionTime / 2);
@@ -48,5 +55,11 @@ public class SceneTransitioner : PersistentService<ISceneTransitioner>, ISceneTr
         canvasGroup.alpha = desiredAlpha;
         canvasGroup.interactable = canvasGroup.alpha > 0;
         canvasGroup.blocksRaycasts = canvasGroup.alpha > 0;
+    }
+
+    IEnumerator QuitTransitionAsync(float transitionTime = 0.5f)
+    {
+        yield return FadeCanvasGroupAsync(m_screenFadeGroup, 1, transitionTime);
+        Application.Quit();
     }
 }

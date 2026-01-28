@@ -788,7 +788,7 @@ MonoBehaviour:
   - m_tilePrefab: {fileID: 628375582064517887, guid: c17769a6d877f3641bda4ee917fd0135, type: 3}
   - m_tilePrefab: {fileID: 628375582064517887, guid: 0296958680a01504685aa40e88aaa4a2, type: 3}
   - m_tilePrefab: {fileID: 628375582064517887, guid: 2c37aacd6bbbfb84591c3c8652d40e31, type: 3}
-  m_tilesAhead: 3
+  m_tilesAhead: 4
   m_tilesBehind: 1
 --- !u!4 &1590192792
 Transform:
@@ -1325,10 +1325,6 @@ PrefabInstance:
     - target: {fileID: 2554694423335832601, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
-      propertyPath: m_moveDistance
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4083791086919947465, guid: 22ce8eb68ab38234e8ead340fd57660c, type: 3}
       propertyPath: m_onJumpComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target

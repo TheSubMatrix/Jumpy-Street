@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Gameplay.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/BrandonsSampleScene.unity
-    guid: 66761ec9ac648254e9c59e8a980d3674
+    path: Assets/Scenes/Play Again.unity
+    guid: 6aa86fe9c6be0274389982a8a3bd8fd1
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 69c3d7ffb1879b844b2aaa9b2de749e5, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

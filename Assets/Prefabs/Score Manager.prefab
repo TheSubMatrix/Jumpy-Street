@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 939479785273173590}
-  - component: {fileID: 345735671102162905}
+  - component: {fileID: 8359475435850947076}
   m_Layer: 0
   m_Name: Score Manager
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &345735671102162905
+--- !u!114 &8359475435850947076
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,14 +41,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1702701142221708334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0926517ff7933f84893bb21538c881b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 9208242003769d34cacdf269fad99bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: JumpyStreet.GameManagement::ScoreManager
   m_repository:
-    rid: 3198014753279836230
+    rid: 3198014864202924105
   references:
     version: 2
     RefIds:
-    - rid: 3198014753279836230
+    - rid: 3198014864202924105
       type: {class: LocalFileScoreRepository, ns: , asm: JumpyStreet.GameManagement}
       data: 

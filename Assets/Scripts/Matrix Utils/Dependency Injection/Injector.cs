@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
+
 namespace MatrixUtils.DependencyInjection {
 
     [DefaultExecutionOrder(-1000)]
@@ -29,7 +30,7 @@ namespace MatrixUtils.DependencyInjection {
 	        }
         }
 
-        void Inject(object instance)
+        public void Inject(object instance)
         {
             Type type = instance.GetType();
 
@@ -177,3 +178,4 @@ namespace MatrixUtils.DependencyInjection {
         }
     }
 }
+

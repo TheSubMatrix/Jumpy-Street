@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 1248882604422787268}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -972,7 +972,7 @@ MonoBehaviour:
   m_characterController:
     m_underlyingValue: {fileID: 7153332151154958815}
   m_moveTime: 0.5
-  m_moveDistance: 2
+  m_moveDistance: 5
   m_jumpHeight: 0.5
   m_onJump:
     m_PersistentCalls:
@@ -1089,14 +1089,14 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 7904778221805041364}
         m_TargetAssemblyTypeName: SceneTransitionProxy, JumpyStreet.SceneManagement
-        m_MethodName: ReloadScene
-        m_Mode: 1
+        m_MethodName: RequestTransitionTo
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Play Again
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 7829699531340287261}
@@ -1158,7 +1158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: JumpyStreet.Characters::CharacterSoundPlayer
   m_deathSound:
-    Clip: {fileID: 0}
+    Clip: {fileID: 8300000, guid: e260bf83144f86c4cb1d31b5632f0b38, type: 3}
     MixerGroup: {fileID: -730871727296524628, guid: cc1397e0f25aa5d4b9ce1a55d902d55d, type: 2}
     Loop: 0
     PlayOnAwake: 0
@@ -1176,7 +1176,7 @@ MonoBehaviour:
     IgnoreListenerPause: 0
     RolloffMode: 0
   m_jumpSound:
-    Clip: {fileID: 0}
+    Clip: {fileID: 8300000, guid: 4e200061c7d06c24490ac477c3b261a3, type: 3}
     MixerGroup: {fileID: -730871727296524628, guid: cc1397e0f25aa5d4b9ce1a55d902d55d, type: 2}
     Loop: 0
     PlayOnAwake: 0

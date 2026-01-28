@@ -25,4 +25,9 @@ public class SceneTransitionProxy : MonoBehaviour, ISceneTransitioner
     {
         m_sceneTransitionerInstance.ReloadScene();
     }
+
+    public void RequestQuit()
+    {
+        m_sceneTransitionerInstance.RequestQuit();
+    }
 }

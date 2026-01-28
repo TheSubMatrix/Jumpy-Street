@@ -12,7 +12,7 @@ public class PlayerScoreProxy : MonoBehaviour
     }
     public void UpdateDistance()
     {
-        m_scoreWriter.UpdateCurrentDistance(Vector3.Distance(m_startPosition, transform.position));
+        m_scoreWriter.UpdateDistance(Vector3.Distance(m_startPosition, transform.position));
     }
 
     public void FinalizeScore()

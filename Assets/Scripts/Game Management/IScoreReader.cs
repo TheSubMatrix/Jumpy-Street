@@ -1,10 +1,12 @@
-using MatrixUtils.GenericDatatypes;
+
 using UnityEngine.Events;
 
 public interface IScoreReader
 {
     ScoreData GetHighScore();
+    UnityEvent<ScoreData> OnHighScoreUpdated { get; }
     ScoreData GetCurrentScore();
     UnityEvent<ScoreData> OnCurrentScoreUpdated { get; }
-    UnityEvent<ScoreData> OnHighScoreUpdated { get; }
+    ScoreData GetLatestScore();
+    UnityEvent<ScoreData> OnLatestScoreUpdated { get; }
 }
